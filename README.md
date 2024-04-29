@@ -23,46 +23,38 @@ With the escalating global impact of wildfires, operational fire simulation mode
 5. [Other key resources](#Resources)
 
 <h1 id="Directories">File directories</h1>
-* Cell2Fire (Fire spread simulator): Cell2Fire (Python) and Cell2FireC (C++)
-* Cell2Fire_results: Output folder for Cell2Fire simulations
-* data: Data used for simulations, model training, optimization
-* figures: Figures used in the publication
-* notebooks: Main .ipynb notebooks to reproduce results
-* plot: Main .ipynb notebooks to visualize results
+- Cell2Fire (Fire spread simulator): Cell2Fire (Python) and Cell2FireC (C++)
+- Cell2Fire_results: Output folder for Cell2Fire simulations
+- data: Data used for simulations, model training, optimization
+- figures: Figures used in the publication
+- notebooks: Main .ipynb notebooks to reproduce results
+- plot: Main .ipynb notebooks to visualize results
 
 <h1 id="Notebooks">Notebooks</h1>
 ### Data preprocessing
-* [generate_data.ipynb](notebooks/generate_data.ipynb): Generate training data (.csv) to run each FBM and train ML models.
+- [generate_data.ipynb](notebooks/generate_data.ipynb): Generate training data (.csv) to run each FBM and train ML models.
 
 ### ML model training (FBM)
-* [train_fbm.ipynb](notebooks/train_fbm.ipnb): Model training script with off-the-shelf ML models
-* [train_fbm_xgboost.ipynb](notebooks/train_fbm_xgboost.ipynb): Training script for XGBoost (regressor) with visualization of loss curves
+- [train_fbm.ipynb](notebooks/train_fbm.ipnb): Model training script with off-the-shelf ML models
+- [train_fbm_xgboost.ipynb](notebooks/train_fbm_xgboost.ipynb): Training script for XGBoost (regressor) with visualization of loss curves
 
 ### Elliptical optimization
-* [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb): Script to find initial optimal K-Factors used in elliptical optimization
+- [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb): Script to find initial optimal K-Factors used in elliptical optimization
 
 ### Visualization
-* [plot_homogeneous.ipynb](notebooks/plot_homogeneous.ipynb): Visualization of homogeneous fuel landscapes (See Supplementary Materials)
-* [plot_optimization.ipynb](notebooks/plot_optimization.ipynb): Visualization of elliptical optimization
-* [plot_real.ipynb](notebooks/plot_real.iypnb): Visualization of real fuel landscapes (US, Canada, Chile)
+- [plot_homogeneous.ipynb](notebooks/plot_homogeneous.ipynb): Visualization of homogeneous fuel landscapes (See Supplementary Materials)
+- [plot_optimization.ipynb](notebooks/plot_optimization.ipynb): Visualization of elliptical optimization
+- [plot_real.ipynb](notebooks/plot_real.iypnb): Visualization of real fuel landscapes (US, Canada, Chile)
 
 <h1 id="Cell2Fire">Running Cell2Fire</h1>
 ### 1) Compile and build Cell2Fire executable
 **CMAKE BUILD**
-Under the folder : 2_BehavePlus/cell2fire_BP
-- cd /Users/minho/Documents/GitHub/c3ai-fire/2_BehavePlus/cell2fire_BP/Cell2FireC (Use full path)
+Under the folder
+- cd /Users/minho/Documents/GitHub/Cell2FireML/Cell2FireC (Use full path)
 - mkdir build
 - cd build
 - cmake ..
 - make
-
-#### Debugging
-(1) If you get **CMake Error at CMakeLists.txt:17 (find_package):**
-cmake -DCMAKE_PREFIX_PATH /home/minho/fires/cell2fireML/libtorch ..
-cmake 
-
-(2) If you get **PermissionError: [Errno 13] Permission denied:**
-Re-run cmake build to create cmake files again. Then try "make"
 
 ### Execute Cell2Fire
 - mv Cell2Fire ..
