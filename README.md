@@ -4,11 +4,29 @@
 # Abstract
 With the escalating global impact of wildfires, operational fire simulation models have become crucial in real-time fire management. However, existing models are typically provided as closed-box systems and for specific geographic regions. In response, we developed an open-source fire spread simulation framework, Cell2FireML, that trains data obtained from semi-empirical fire behavior models using machine learning and provides the learned logic into a cellular automata simulator to simulate fire spread. Further, we also assessed the feature importance of the trained model’s inputs and predictions to make the framework more explainable. Through simulations on synthetic and real landscapes in various geographic regions (U.S., Canada, Chile), we demonstrated that Cell2FireML can produce highly accurate simulation outputs that are comparable with the best existing operational models. We also added a two-step optimization process that leverages real wildfire burn data to simulate more realistic simulations and surpass capabilities of existing models.
 
+<br/>
+<p align="center">
+  <img src="figures/graphical_abstract.jpg" width="900">
+  <br><i>Graphical abstract of Cell2FireML's framework</i>
+</p>
 
 # Highlights
 * Developed an open-source, modular, and robust framework for fire spread simulations in the US, Canada, and Chile.
 * ML models trained on three fire behavior models: (1) BehavePlus v6 (US); (2) FBP (Canada); (3) KITRAL (Chile), interpreted using Explainable AI (Shapley).
-* Reproduced outputs by semi-empirical fire spread simulators (FarSite, Prometheus) at high accuracy, and blackbox optimization used to better replicate real burns.
+* Reproduced outputs by existing closed-box, semi-empirical fire spread simulators (FarSite, Prometheus) at high accuracy, and blackbox optimization used to better replicate real burns.
+
+<br/>
+<p align="center">
+  <img src="figures/fig5.pdf" width="900">
+  <br><i>Graphical abstract of Cell2FireML's framework</i>
+</p>
+
+<br/>
+<p align="center">
+  <img src="figures/graphical_abstract.jpg" width="900">
+  <br><i>Graphical abstract of Cell2FireML's framework</i>
+</p>
+
 
 # Requirements
 **C++**
