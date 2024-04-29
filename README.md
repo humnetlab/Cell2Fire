@@ -12,7 +12,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 
 # Highlights
 * Developed an open-source, modular, and robust framework for fire spread simulations in the US, Canada, and Chile.
-* ML models trained on three fire behavior models: (1) BehavePlus v6 (US); (2) FBP (Canada); (3) KITRAL (Chile), interpreted using Explainable AI (Shapley).
+* ML models trained on three fire behavior models (FBMs): (1) BehavePlus v6 (US); (2) FBP (Canada); (3) KITRAL (Chile), interpreted using Explainable AI (Shapley).
 * Reproduced outputs by existing closed-box, semi-empirical fire spread simulators (FarSite, Prometheus) at high accuracy, and blackbox optimization used to better replicate real burns.
 
 # Requirements
@@ -20,7 +20,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 - Boost
 - Eigen
 
-**Python 3.6**
+**Python**
 - numpy
 - pandas
 - matplotlib
@@ -39,19 +39,19 @@ With the escalating global impact of wildfires, operational fire simulation mode
 
 # Notebooks
 ### Data preprocessing
-* [generate_data.ipynb](notebooks/generate_data.ipynb)
+* [generate_data.ipynb](notebooks/generate_data.ipynb): Generate training data (.csv) to run each FBM and train ML models.
 
 ### ML model training (FBM)
-* [train_fbm.ipynb](notebooks/train_fbm.ipnb)
-* [train_fbm_xgboost.ipynb](notebooks/train_fbm_xgboost.ipynb)
+* [train_fbm.ipynb](notebooks/train_fbm.ipnb): Model training script with off-the-shelf ML models
+* [train_fbm_xgboost.ipynb](notebooks/train_fbm_xgboost.ipynb): Training script for XGBoost (regressor) with visualization of loss curves
 
 ### Elliptical optimization
-* [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb)
+* [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb): Script to find initial optimal K-Factors used in elliptical optimization
 
 ### Visualization
-* [plot_homogeneous.ipynb](notebooks/plot_homogeneous.ipynb)
-* [plot_optimization.ipynb](notebooks/plot_optimization.ipynb)
-* [plot_real.ipynb](notebooks/plot_real.iypnb)
+* [plot_homogeneous.ipynb](notebooks/plot_homogeneous.ipynb): Visualization of homogeneous fuel landscapes (See Supplementary Materials)
+* [plot_optimization.ipynb](notebooks/plot_optimization.ipynb): Visualization of elliptical optimization
+* [plot_real.ipynb](notebooks/plot_real.iypnb): Visualization of real fuel landscapes (US, Canada, Chile)
 
 # Other key resources
 * Cell2Fire: [Github](https://github.com/cell2fire/Cell2Fire), [Paper](https://www.frontiersin.org/articles/10.3389/ffgc.2021.692706/full)
