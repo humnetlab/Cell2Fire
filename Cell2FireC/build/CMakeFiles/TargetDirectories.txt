@@ -1,0 +1,3 @@
+/home/minho/fires/cell2fireML_v2/Cell2FireC/build/CMakeFiles/rebuild_cache.dir
+/home/minho/fires/cell2fireML_v2/Cell2FireC/build/CMakeFiles/edit_cache.dir
+/home/minho/fires/cell2fireML_v2/Cell2FireC/build/CMakeFiles/Cell2Fire.dir

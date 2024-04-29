@@ -1,0 +1,6 @@
+Instance,$\delta$ norm,MSE,F1,SSIM,AreaCell2FireML,AreaPrometheus,running_times
+dogrib_short,10.724,0.001,0.974,0.993,1082,1197,2.531
+dogrib_full,29.155,0.011,0.972,0.959,9057,8207,9.39
+dogrib_full_BBOvsReal,79.278,0.079,0.826,0.818,10503,10210,1.323
+dogrib_shortvsReal,97.16,0.119,0.55,0.82,1082,10210,2.531
+dogrib_fullvsReal,93.878,0.111,0.74,0.791,9057,10210,9.39
