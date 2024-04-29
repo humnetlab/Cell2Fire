@@ -62,7 +62,7 @@ Under the folder
 - cmake ..
 - make
 
-### Execute Cell2Fire
+### 2) Execute Cell2Fire
 - mv Cell2Fire ..
 *The executable file has to be moved from the "build" folder to the Cell2FireC folder*
 - cd ../..
