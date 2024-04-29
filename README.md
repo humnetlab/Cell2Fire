@@ -16,13 +16,13 @@ With the escalating global impact of wildfires, operational fire simulation mode
 * Reproduced outputs by existing closed-box, semi-empirical fire spread simulators (FarSite, Prometheus) at high accuracy, and blackbox optimization used to better replicate real burns.
 
 # Contents
-1. [File directories](#File directories)
+1. [File directories](#Directories)
 2. [Notebooks](#Notebooks)
 3. [Running Cell2Fire](#Running Cell2Fire)
 4. [Code Requirements](#Code Requirements)
 5. [Other key resources](#Other key resources)
 
-# 1. File directories
+<h2 id="Directories">File directories</h2>
 * Cell2Fire (Fire spread simulator): Cell2Fire (Python) and Cell2FireC (C++)
 * Cell2Fire_results: Output folder for Cell2Fire simulations
 * data: Data used for simulations, model training, optimization
