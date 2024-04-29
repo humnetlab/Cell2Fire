@@ -22,6 +22,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 4. [Code Requirements](#Requirements)
 5. [Other key resources](#Resources)
 
+# Details
 <h1 id="Directories">File directories</h1>
 - Cell2Fire (Fire spread simulator): Cell2Fire (Python) and Cell2FireC (C++)
 - Cell2Fire_results: Output folder for Cell2Fire simulations
