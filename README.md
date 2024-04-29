@@ -1,7 +1,7 @@
 # Cell2FireML: An Open-Source Fire Spread Simulation Framework Using Machine Learning
 [Minho Kim](https://minho.me), Cristobal Pais, Marta C. Gonzalez
 
-# Abstract: 
+# Abstract
 With the escalating global impact of wildfires, operational fire simulation models have become crucial in real-time fire management. However, existing models are typically provided as closed-box systems and for specific geographic regions. In response, we developed an open-source fire spread simulation framework, Cell2FireML, that trains data obtained from semi-empirical fire behavior models using machine learning and provides the learned logic into a cellular automata simulator to simulate fire spread. Further, we also assessed the feature importance of the trained model’s inputs and predictions to make the framework more explainable. Through simulations on synthetic and real landscapes in various geographic regions (U.S., Canada, Chile), we demonstrated that Cell2FireML can produce highly accurate simulation outputs that are comparable with the best existing operational models. We also added a two-step optimization process that leverages real wildfire burn data to simulate more realistic simulations and surpass capabilities of existing models.
 
 
@@ -12,17 +12,17 @@ With the escalating global impact of wildfires, operational fire simulation mode
 
 # Requirements
 **C++**
-Boost
-Eigen
+- Boost
+- Eigen
 
 **Python 3.6**
-numpy
-pandas
-matplotlib
-seaborn
-tqdm
-rasterio
-networkx (for *stats* module)
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- tqdm
+- rasterio
+- networkx (for *stats* module)
 
 # File directories
 * Cell2Fire (Fire spread simulator): Cell2Fire (Python) and Cell2FireC (C++)
@@ -32,7 +32,7 @@ networkx (for *stats* module)
 * notebooks: Main .ipynb notebooks to reproduce results
 * plot: Main .ipynb notebooks to visualize results
 
-Cell2FireML
+Cell2FireML/
 │
 ├── Cell2Fire
 │
@@ -52,3 +52,4 @@ Cell2FireML
 * Cell2Fire: [Github](https://github.com/cell2fire/Cell2Fire), [Paper](https://www.frontiersin.org/articles/10.3389/ffgc.2021.692706/full)
 * Cell2Fire-KITRAL: [C2F+K](https://github.com/fire2a/C2FK)
 * Cell2Fire-Scott&Burgan [C2F+S&B](https://github.com/fire2a/C2FSB)
+* A tutorial can be found at [C2F+K Tutorial](https://docs.google.com/presentation/d/1Y6fPAhDrSThGSvYFvqdccXTvVrUcvbHZsDLAwbfMD18/edit?usp=sharing)
