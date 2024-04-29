@@ -32,22 +32,6 @@ With the escalating global impact of wildfires, operational fire simulation mode
 * notebooks: Main .ipynb notebooks to reproduce results
 * plot: Main .ipynb notebooks to visualize results
 
-Cell2FireML/
-│
-├── Cell2Fire
-│
-├── Cell2FireC
-│
-├── Cell2Fire_results
-│
-├── data
-│
-├── figures
-│
-├── notebooks
-│
-└── plot
-
 # Key resources
 * Cell2Fire: [Github](https://github.com/cell2fire/Cell2Fire), [Paper](https://www.frontiersin.org/articles/10.3389/ffgc.2021.692706/full)
 * Cell2Fire-KITRAL: [C2F+K](https://github.com/fire2a/C2FK)
