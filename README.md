@@ -23,7 +23,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 5. [Other key resources](#Resources)
 
 # File Directories
-<h1 id="Directories"></h1>
+<a id="Directories"></a>
 
 - Cell2Fire (Fire spread simulator): Cell2Fire (Python) and Cell2FireC (C++)
 - Cell2Fire_results: Output folder for Cell2Fire simulations
@@ -33,7 +33,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 - plot: Main .ipynb notebooks to visualize results
 
 # Notebooks
-<h1 id="Notebooks"></h1>
+<a id="Notebooks"></a>
 
 ### Data preprocessing
 - [generate_data.ipynb](notebooks/generate_data.ipynb): Generate training data (.csv) to run each FBM and train ML models.
@@ -51,7 +51,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 - [plot_real.ipynb](notebooks/plot_real.iypnb): Visualization of real fuel landscapes (US, Canada, Chile)
 
 # Running Cell2Fire
-<h1 id="Cell2Fire"></h1>
+<a id="Cell2Fire"></a>
 
 ### 1) Compile and build Cell2Fire executable
 **CMAKE BUILD**
@@ -69,7 +69,7 @@ Under the folder
 - python main.py --input-instance-folder data_BP/f101/ --output-folder results/BP_f101_test/ --ignitions --sim-years 1 --nsims 1 --grids --finalGrid --weather rows --nweathers 1 --Fire-Period-Length 1.0 --ROS-CV 0.0 --output-messages --seed 123 --IgnitionRad 1 --stats --verbose --allPlots
 
 # Code Requirements
-<h1 id="Requirements"></h1>
+<a id="Requirements"></a>
 
 **C++**
 - Boost
@@ -85,7 +85,7 @@ Under the folder
 - networkx (for *stats* module)
 
 # Other Key Resources
-<h1 id="Resources"></h1>
+<a id="Resources"></a>
 
 * Cell2Fire: [Github](https://github.com/cell2fire/Cell2Fire), [Paper](https://www.frontiersin.org/articles/10.3389/ffgc.2021.692706/full)
 * Cell2Fire-KITRAL: [C2F+K](https://github.com/fire2a/C2FK)
