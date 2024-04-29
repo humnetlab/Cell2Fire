@@ -15,19 +15,6 @@ With the escalating global impact of wildfires, operational fire simulation mode
 * ML models trained on three fire behavior models: (1) BehavePlus v6 (US); (2) FBP (Canada); (3) KITRAL (Chile), interpreted using Explainable AI (Shapley).
 * Reproduced outputs by existing closed-box, semi-empirical fire spread simulators (FarSite, Prometheus) at high accuracy, and blackbox optimization used to better replicate real burns.
 
-<br/>
-<p align="center">
-  <img src="figures/fig5.pdf" width="900">
-  <br><i>Graphical abstract of Cell2FireML's framework</i>
-</p>
-
-<br/>
-<p align="center">
-  <img src="figures/graphical_abstract.jpg" width="900">
-  <br><i>Graphical abstract of Cell2FireML's framework</i>
-</p>
-
-
 # Requirements
 **C++**
 - Boost
