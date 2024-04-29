@@ -32,7 +32,23 @@ With the escalating global impact of wildfires, operational fire simulation mode
 * notebooks: Main .ipynb notebooks to reproduce results
 * plot: Main .ipynb notebooks to visualize results
 
-# Key resources
+# Notebooks
+### Data preprocessing
+* [generate_data.ipynb](notebooks/generate_data.ipynb)
+
+### ML model training (FBM)
+* [train_fbm.ipynb](notebooks/train_fbm.ipnb)
+* [train_fbm_xgboost.ipynb](notebooks/train_fbm_xgboost.ipynb)
+
+### Elliptical optimization
+* [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb)
+
+### Visualization
+* [plot_homogeneous.ipynb](notebooks/plot_homogeneous.ipynb)
+* [plot_optimization.ipynb](notebooks/plot_optimization.ipynb)
+* [plot_real.ipynb](notebooks/plot_real.iypnb)
+
+# Other key resources
 * Cell2Fire: [Github](https://github.com/cell2fire/Cell2Fire), [Paper](https://www.frontiersin.org/articles/10.3389/ffgc.2021.692706/full)
 * Cell2Fire-KITRAL: [C2F+K](https://github.com/fire2a/C2FK)
 * Cell2Fire-Scott&Burgan [C2F+S&B](https://github.com/fire2a/C2FSB)
