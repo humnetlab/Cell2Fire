@@ -18,11 +18,11 @@ With the escalating global impact of wildfires, operational fire simulation mode
 # Contents
 1. [File directories](#Directories)
 2. [Notebooks](#Notebooks)
-3. [Running Cell2Fire](#Running Cell2Fire)
-4. [Code Requirements](#Code Requirements)
-5. [Other key resources](#Other key resources)
+3. [Running Cell2Fire](#Cell2Fire)
+4. [Code Requirements](#Requirements)
+5. [Other key resources](#Resources)
 
-<h2 id="Directories">File directories</h2>
+<h1 id="Directories">File directories</h1>
 * Cell2Fire (Fire spread simulator): Cell2Fire (Python) and Cell2FireC (C++)
 * Cell2Fire_results: Output folder for Cell2Fire simulations
 * data: Data used for simulations, model training, optimization
@@ -30,7 +30,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 * notebooks: Main .ipynb notebooks to reproduce results
 * plot: Main .ipynb notebooks to visualize results
 
-# 2. Notebooks
+<h1 id="Notebooks">Notebooks</h1>
 ### Data preprocessing
 * [generate_data.ipynb](notebooks/generate_data.ipynb): Generate training data (.csv) to run each FBM and train ML models.
 
@@ -46,7 +46,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 * [plot_optimization.ipynb](notebooks/plot_optimization.ipynb): Visualization of elliptical optimization
 * [plot_real.ipynb](notebooks/plot_real.iypnb): Visualization of real fuel landscapes (US, Canada, Chile)
 
-# 3. Running Cell2Fire
+<h1 id="Cell2Fire">Running Cell2Fire</h1>
 ### 1) Compile and build Cell2Fire executable
 **CMAKE BUILD**
 Under the folder : 2_BehavePlus/cell2fire_BP
@@ -70,7 +70,7 @@ Re-run cmake build to create cmake files again. Then try "make"
 - cd ../..
 - python main.py --input-instance-folder data_BP/f101/ --output-folder results/BP_f101_test/ --ignitions --sim-years 1 --nsims 1 --grids --finalGrid --weather rows --nweathers 1 --Fire-Period-Length 1.0 --ROS-CV 0.0 --output-messages --seed 123 --IgnitionRad 1 --stats --verbose --allPlots
 
-# 4. Code Requirements
+<h1 id="Requirements">Code Requirements</h1>
 **C++**
 - Boost
 - Eigen
@@ -84,7 +84,7 @@ Re-run cmake build to create cmake files again. Then try "make"
 - rasterio
 - networkx (for *stats* module)
 
-# 5. Other key resources
+<h1 id="Resources">Other Key Resources</h1>
 * Cell2Fire: [Github](https://github.com/cell2fire/Cell2Fire), [Paper](https://www.frontiersin.org/articles/10.3389/ffgc.2021.692706/full)
 * Cell2Fire-KITRAL: [C2F+K](https://github.com/fire2a/C2FK)
 * Cell2Fire-Scott&Burgan [C2F+S&B](https://github.com/fire2a/C2FSB)
