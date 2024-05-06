@@ -12,7 +12,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 
 # Highlights
 * Developed an open-source, modular, and robust framework for fire spread simulations in the US, Canada, and Chile.
-* ML models trained on three fire behavior models (FBMs): (1) BehavePlus v6 (US); (2) FBP (Canada); (3) KITRAL (Chile), interpreted using Explainable AI (Shapley).
+* ML models trained on three fire spread models (FSMs): (1) BehavePlus v6 (US); (2) FBP (Canada); (3) KITRAL (Chile), interpreted using Explainable AI (Shapley).
 * Reproduced outputs by existing closed-box, semi-empirical fire spread simulators (FarSite, Prometheus) at high accuracy, and blackbox optimization used to better replicate real burns.
 
 # Contents
@@ -45,6 +45,10 @@ With the escalating global impact of wildfires, operational fire simulation mode
 ### Elliptical optimization
 - [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb): Script to find initial optimal K-Factors used in elliptical optimization
 
+### Cell2Fire simulations
+- [Execute_Cell2Fire_US_example.ipynb](notebooks/Execute_Cell2Fire_US_example.ipynb): Notebook to simulate fire in the US and compare per hour
+- [Execute_Cell2Fire_Canada_example.ipynb](notebooks/Execute_Cell2Fire_Canada_example.ipynb): Notebook to simulate Dogrib Fire (Canada) and apply BBO
+
 ### Visualization
 - [plot_homogeneous.ipynb](notebooks/plot_homogeneous.ipynb): Visualization of homogeneous fuel landscapes (See Supplementary Materials)
 - [plot_optimization.ipynb](notebooks/plot_optimization.ipynb): Visualization of elliptical optimization
@@ -64,6 +68,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 
 # Running Cell2Fire
 <a id="Cell2Fire"></a>
+Cell2Fire is provided for the US (Scott & Burgan fuels based on Behave), Canada (FBP), and Chile (KITRAL). Cell2FireML is currently programmed for Cell2Fire_US. Use the [notebook](notebooks/Execute_Cell2Fire_US_example.ipynb) to see an example of Cell2FireML's usage.
 
 ### 1) Compile and build Cell2Fire executable
 **CMAKE BUILD**
@@ -100,11 +105,19 @@ python main.py --input-instance-folder data_BP/f101/ --output-folder results/BP_
 - rasterio
 - networkx (for *stats* module)
 
-# Other Key Resources
+# Other Key Resources on Cell2Fire
 <a id="Resources"></a>
 
 * Cell2Fire: [Github](https://github.com/cell2fire/Cell2Fire), [Paper](https://www.frontiersin.org/articles/10.3389/ffgc.2021.692706/full)
 * Cell2Fire-KITRAL: [C2F+K](https://github.com/fire2a/C2FK)
 * Cell2Fire-Scott&Burgan [C2F+S&B](https://github.com/fire2a/C2FSB)
-* Cell2Fire for FBP, Scott&Burgan, KITRAL: [C2F-W](https://github.com/fire2a/C2F-W)
-* A tutorial can be found at [C2F+K Tutorial](https://docs.google.com/presentation/d/1Y6fPAhDrSThGSvYFvqdccXTvVrUcvbHZsDLAwbfMD18/edit?usp=sharing)
+* Cell2Fire for FBP, Scott&Burgan, KITRAL: [C2F-W](https://github.com/fire2a/C2F-W) <-- Most recent update and ongoing work by the Fire2A team!
+* A great tutorial can be found at [C2F+K Tutorial](https://docs.google.com/presentation/d/1Y6fPAhDrSThGSvYFvqdccXTvVrUcvbHZsDLAwbfMD18/edit?usp=sharing)
+ 
+
+# Acknowledgements
+The authors acknowledge the support of C3.ai through the grant Multiscale analysis for Improved Risk Assessment of Wildfires facilitated by Data and Computation. 
+
+# Citation
+---------------------
+**Please cite the journal paper if this code is useful and helpful for your research.**
