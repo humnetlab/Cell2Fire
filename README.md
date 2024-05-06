@@ -105,16 +105,19 @@ python main.py --input-instance-folder data_BP/f101/ --output-folder results/BP_
 - rasterio
 - networkx (for *stats* module)
 
-# Other Key Resources
+# Other Key Resources on Cell2Fire
 <a id="Resources"></a>
 
 * Cell2Fire: [Github](https://github.com/cell2fire/Cell2Fire), [Paper](https://www.frontiersin.org/articles/10.3389/ffgc.2021.692706/full)
 * Cell2Fire-KITRAL: [C2F+K](https://github.com/fire2a/C2FK)
 * Cell2Fire-Scott&Burgan [C2F+S&B](https://github.com/fire2a/C2FSB)
-* Cell2Fire for FBP, Scott&Burgan, KITRAL: [C2F-W](https://github.com/fire2a/C2F-W) <-- Most recent update by the Fire2A team!
+* Cell2Fire for FBP, Scott&Burgan, KITRAL: [C2F-W](https://github.com/fire2a/C2F-W) <-- Most recent update and ongoing work by the Fire2A team!
 * A great tutorial can be found at [C2F+K Tutorial](https://docs.google.com/presentation/d/1Y6fPAhDrSThGSvYFvqdccXTvVrUcvbHZsDLAwbfMD18/edit?usp=sharing)
  
 
-Citation
+# Acknowledgements
+The authors acknowledge the support of C3.ai through the grant Multiscale analysis for Improved Risk Assessment of Wildfires facilitated by Data and Computation. 
+
+# Citation
 ---------------------
 **Please cite the journal paper if this code is useful and helpful for your research.**
