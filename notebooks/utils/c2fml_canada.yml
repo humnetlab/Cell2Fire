@@ -1,0 +1,42 @@
+### Cell2FireML INPUT PARAMETERS
+
+# Path to Cell2Fire executable
+CELL2FIRE_PATH: "/home/minho/research/fire/c2f_codes/Cell2FireC_Canada"
+
+# Path for generated burn plots
+PLOT_PATH: "/home/minho/research/fire/c2f_codes/notebooks/plots_canada"
+
+# Path to input data
+INSTANCE_PATH: "/home/minho/research/fire/c2f_codes/data_canada"
+INSTANCE_NAME: "400cellsC1"
+
+# Path to results folder
+OUT_PATH: "/home/minho/research/fire/c2f_codes/results_paper_canada"
+
+# Cell2Fire options
+args:
+  InFolder: "/home/minho/research/fire/c2f_codes/data_canada/400cellsC1/"
+  OutFolder: "/home/minho/research/fire/c2f_codes/results_paper_canada/f101_400cellsC1100_ws30_CS500_5HR/"
+  ignitions: true
+  sim_years: 1
+  nsims: 1
+  grids: false
+  finalGrid: true
+  input_PeriodLen: 1.0
+  OutMessages: false
+  WeatherOpt: rows
+  nweathers: 1
+  ROS_CV: 0.0
+  IgRadius: 0
+  seed: 123
+  ROS_Threshold: 0.0
+  HFI_Threshold: 0.0
+  HFactor: 1.0
+  BFactor: 1.0
+  FFactor: 1.0
+  EFactor: 1.0
+  nthreads: 1
+  BBO: false
+  HCells: null
+  verbose: true
+  region: canada
