@@ -64,6 +64,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 
 # Running Cell2Fire
 <a id="Cell2Fire"></a>
+Cell2Fire is provided for the US (Scott & Burgan fuels based on Behave), Canada (FBP), and Chile (KITRAL). Cell2FireML is currently programmed for Cell2Fire_US. Use the [notebook](notebooks/Execute_Cell2Fire_US_example.ipynb) to see an example of Cell2FireML's usage.
 
 ### 1) Compile and build Cell2Fire executable
 **CMAKE BUILD**
