@@ -45,6 +45,10 @@ With the escalating global impact of wildfires, operational fire simulation mode
 ### Elliptical optimization
 - [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb): Script to find initial optimal K-Factors used in elliptical optimization
 
+### Cell2Fire simulations
+- [Execute_Cell2Fire_US_example.ipynb](notebooks/Execute_Cell2Fire_US_example.ipynb): Notebook to simulate fire in the US and compare per hour
+- [Execute_Cell2Fire_Canada_example.ipynb](notebooks/Execute_Cell2Fire_Canada_example.ipynb): Notebook to simulate Dogrib Fire (Canada) and apply BBO
+
 ### Visualization
 - [plot_homogeneous.ipynb](notebooks/plot_homogeneous.ipynb): Visualization of homogeneous fuel landscapes (See Supplementary Materials)
 - [plot_optimization.ipynb](notebooks/plot_optimization.ipynb): Visualization of elliptical optimization
