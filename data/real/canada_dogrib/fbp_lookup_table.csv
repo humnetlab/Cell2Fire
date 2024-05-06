@@ -1,4 +1,4 @@
-grid_value,export_value,descriptive_name,fuel_type,r,g,b,h,s,l
+grid_value, export_value, descriptive_name, fuel_type, r, g, b, h, s, l
 1,1,Spruce-Lichen Woodland,C-1,209,255,115,57,255,185
 2,2,Boreal Spruce,C-2,34,102,51,95,128,68
 3,3,Mature Jack or Lodgepole Pine,C-3,131,199,149,96,96,165
