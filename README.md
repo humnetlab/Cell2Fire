@@ -12,7 +12,7 @@ With the escalating global impact of wildfires, operational fire simulation mode
 
 # Highlights
 * Developed an open-source, modular, and robust framework for fire spread simulations in the US, Canada, and Chile.
-* ML models trained on three fire behavior models (FBMs): (1) BehavePlus v6 (US); (2) FBP (Canada); (3) KITRAL (Chile), interpreted using Explainable AI (Shapley).
+* ML models trained on three fire spread models (FSMs): (1) BehavePlus v6 (US); (2) FBP (Canada); (3) KITRAL (Chile), interpreted using Explainable AI (Shapley).
 * Reproduced outputs by existing closed-box, semi-empirical fire spread simulators (FarSite, Prometheus) at high accuracy, and blackbox optimization used to better replicate real burns.
 
 # Contents
