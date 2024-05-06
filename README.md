@@ -50,25 +50,41 @@ With the escalating global impact of wildfires, operational fire simulation mode
 - [plot_optimization.ipynb](notebooks/plot_optimization.ipynb): Visualization of elliptical optimization
 - [plot_real.ipynb](notebooks/plot_real.iypnb): Visualization of real fuel landscapes (US, Canada, Chile)
 
+# Installation
+1. **Clone the Repository**: Clone the repository containing the environment YAML file to your local system.
+   ```bash
+   git clone https://github.com/humnetlab/Cell2FireML.git
+2. Change your current directory to the repository directory. 
+   ```bash
+   cd Cell2FireML
+  
+3. Create the environment from the YAML file
+   ```bash
+   conda env create -f environment.yml
+
 # Running Cell2Fire
 <a id="Cell2Fire"></a>
 
 ### 1) Compile and build Cell2Fire executable
 **CMAKE BUILD**
 Under the folder
-- cd /Users/minho/Documents/GitHub/Cell2FireML/Cell2FireC (Use full path)
-- mkdir build
-- cd build
-- cmake ..
-- make
-
+```bash
+cd /Users/minho/Documents/GitHub/Cell2FireML/Cell2FireC (Use full path)
+mkdir build
+cd build
+cmake ..
+make
+```
 ### 2) Execute Cell2Fire
-- mv Cell2Fire ..
-*The executable file has to be moved from the "build" folder to the Cell2FireC folder*
-- cd ../..
-- python main.py --input-instance-folder data_BP/f101/ --output-folder results/BP_f101_test/ --ignitions --sim-years 1 --nsims 1 --grids --finalGrid --weather rows --nweathers 1 --Fire-Period-Length 1.0 --ROS-CV 0.0 --output-messages --seed 123 --IgnitionRad 1 --stats --verbose --allPlots
+```bash
+# The executable file has to be moved from the "build" folder to the Cell2FireC folder*
+mv Cell2Fire .. 
+cd ../..
+# Example
+python main.py --input-instance-folder data_BP/f101/ --output-folder results/BP_f101_test/ --ignitions --sim-years 1 --nsims 1 --grids --finalGrid --weather rows --nweathers 1 --Fire-Period-Length 1.0 --ROS-CV 0.0 --output-messages --seed 123 --IgnitionRad 1 --stats --verbose --allPlots
+```
 
-# Code Requirements
+# Code Requirements for Cell2Fire
 <a id="Requirements"></a>
 
 **C++**
