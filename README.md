@@ -113,3 +113,8 @@ python main.py --input-instance-folder data_BP/f101/ --output-folder results/BP_
 * Cell2Fire-Scott&Burgan [C2F+S&B](https://github.com/fire2a/C2FSB)
 * Cell2Fire for FBP, Scott&Burgan, KITRAL: [C2F-W](https://github.com/fire2a/C2F-W) <-- Most recent update by the Fire2A team!
 * A great tutorial can be found at [C2F+K Tutorial](https://docs.google.com/presentation/d/1Y6fPAhDrSThGSvYFvqdccXTvVrUcvbHZsDLAwbfMD18/edit?usp=sharing)
+ 
+
+Citation
+---------------------
+**Please cite the journal paper if this code is useful and helpful for your research.**
