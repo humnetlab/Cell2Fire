@@ -38,9 +38,9 @@ With the escalating global impact of wildfires, operational fire simulation mode
 ### Data preprocessing
 - [generate_data.ipynb](notebooks/generate_data.ipynb): Generate training data (.csv) to run each FBM and train ML models.
 
-### ML model training (FBM)
-- [train_fbm.ipynb](notebooks/train_fbm.ipnb): Model training script with off-the-shelf ML models
-- [train_fbm_xgboost.ipynb](notebooks/train_fbm_xgboost.ipynb): Training script for XGBoost (regressor) with visualization of loss curves
+### ML model training (FSM)
+- [train_fsm.ipynb](notebooks/train_fsm.ipnb): Model training script with off-the-shelf ML models
+- [train_fsm_xgboost.ipynb](notebooks/train_fsm_xgboost.ipynb): Training script for XGBoost (regressor) with visualization of loss curves
 
 ### Elliptical optimization
 - [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb): Script to find initial optimal K-Factors used in elliptical optimization
