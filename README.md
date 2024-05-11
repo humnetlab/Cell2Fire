@@ -85,7 +85,7 @@ make
 # The executable file has to be moved from the "build" folder to the Cell2FireC folder*
 mv Cell2Fire .. 
 cd ../..
-# Example
+# Example (Needs to be adjusted)
 python main.py --input-instance-folder data_BP/f101/ --output-folder results/BP_f101_test/ --ignitions --sim-years 1 --nsims 1 --grids --finalGrid --weather rows --nweathers 1 --Fire-Period-Length 1.0 --ROS-CV 0.0 --output-messages --seed 123 --IgnitionRad 1 --stats --verbose --allPlots
 ```
 
