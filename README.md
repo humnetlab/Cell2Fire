@@ -38,10 +38,6 @@ Fire spread models (FSMs) are used to reproduce fire behavior and can simulate f
 ### Data preprocessing
 - [generate_data.ipynb](notebooks/generate_data.ipynb): Generate training data (.csv) to run each FBM and train ML models.
 
-### ML model training (FSM)
-- [train_fsm.ipynb](notebooks/train_fsm.ipnb): Model training script with off-the-shelf ML models
-- [train_fsm_xgboost.ipynb](notebooks/train_fsm_xgboost.ipynb): Training script for XGBoost (regressor) with visualization of loss curves
-
 ### Elliptical optimization
 - [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb): Script to find initial optimal K-Factors used in elliptical optimization
 
@@ -57,10 +53,10 @@ Fire spread models (FSMs) are used to reproduce fire behavior and can simulate f
 # Installation
 1. **Clone the Repository**: Clone the repository containing the environment YAML file to your local system.
    ```bash
-   git clone https://github.com/humnetlab/Cell2FireML.git
+   git clone https://github.com/humnetlab/Cell2Fire.git
 2. Change your current directory to the repository directory. 
    ```bash
-   cd Cell2FireML
+   cd Cell2Fire
   
 3. Create the environment from the YAML file
    ```bash
@@ -68,13 +64,13 @@ Fire spread models (FSMs) are used to reproduce fire behavior and can simulate f
 
 # Running Cell2Fire
 <a id="Cell2Fire"></a>
-Cell2Fire is provided for the US (Scott & Burgan fuels based on Behave), Canada (FBP), and Chile (KITRAL). Cell2FireML is currently programmed for Cell2Fire_US. Use the [notebook](notebooks/Execute_Cell2Fire_US_example.ipynb) to see an example of Cell2FireML's usage.
+Cell2Fire is provided for the US (Scott & Burgan fuels based on Behave), Canada (FBP), and Chile (KITRAL). 
 
 ### 1) Compile and build Cell2Fire executable
 **CMAKE BUILD**
 Under the folder
 ```bash
-cd /Users/minho/Documents/GitHub/Cell2FireML/Cell2FireC (Use full path)
+cd /Users/minho/Documents/GitHub/Cell2Fire/Cell2FireC (Use full path)
 mkdir build
 cd build
 cmake ..
