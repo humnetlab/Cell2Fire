@@ -11,9 +11,9 @@ Fire spread models (FSMs) are used to reproduce fire behavior and can simulate f
 </p>
 
 # Highlights⚡
-* Developed an open-source, modular, and robust framework for fire spread simulations in the US, Canada, and Chile.
-* ML models trained on three fire spread models (FSMs): (1) BehavePlus v6 (US); (2) FBP (Canada); (3) KITRAL (Chile), interpreted using Explainable AI (Shapley).
-* Reproduced outputs by existing closed-box, semi-empirical fire spread simulators (FarSite, Prometheus) at high accuracy, and blackbox optimization used to better replicate real burns.
+* Cell2Fire accurately simulates in homogeneous and real landscapes in the US, Canada, and Chile.
+* Cell2Fire applied for the first time in the US (Southern California).
+* Blackbox optimization used to better replicate real burns in Canada.
 
 # Contents
 1. [File directories](#Directories)
@@ -34,9 +34,6 @@ Fire spread models (FSMs) are used to reproduce fire behavior and can simulate f
 
 # Notebooks
 <a id="Notebooks"></a>
-
-### Data preprocessing
-- [generate_data.ipynb](notebooks/generate_data.ipynb): Generate training data (.csv) to run each FBM and train ML models.
 
 ### Elliptical optimization
 - [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb): Script to find initial optimal K-Factors used in elliptical optimization
