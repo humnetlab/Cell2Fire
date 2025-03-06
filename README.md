@@ -6,7 +6,7 @@ Fire spread models (FSMs) are used to reproduce fire behavior and can simulate f
 
 <br/>
 <p align="center">
-  <img src="figures/graphical_abstract.jpg" width="900">
+  <img src="figures/graphical_abstract.png" width="900">
   <br><i>Graphical abstract</i>
 </p>
 
