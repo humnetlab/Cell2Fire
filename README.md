@@ -1,13 +1,13 @@
-# Cell2FireML: An Open-Source Fire Spread Simulation Framework Using Machine Learning
+# Fire Spread Simulations Using Cell2Fire on Synthetic and Real Landscapes
 [Minho Kim](https://minho.me), [Cristobal Pais](https://scholar.google.com/citations?user=-iFEF_YAAAAJ&hl), [Marta C. Gonzalez](https://scholar.google.com/citations?user=YAGjro8AAAAJ&hl=en)
 
 # Abstract
-With the escalating global impact of wildfires, operational fire simulation models have become crucial in real-time fire management. However, existing models are typically provided as closed-box systems and for specific geographic regions. In response, we developed an open-source fire spread simulation framework, Cell2FireML, that trains data obtained from semi-empirical fire behavior models using machine learning and provides the learned logic into a cellular automata simulator to simulate fire spread. Further, we also assessed the feature importance of the trained model’s inputs and predictions to make the framework more explainable. Through simulations on synthetic and real landscapes in various geographic regions (U.S., Canada, Chile), we demonstrated that Cell2FireML can produce highly accurate simulation outputs that are comparable with the best existing operational models. We also added a two-step optimization process that leverages real wildfire burn data to simulate more realistic simulations and surpass capabilities of existing models.
+Fire spread models (FSMs) are used to reproduce fire behavior and can simulate fire propagation over landscapes. As wildfires have emerged into a global phenomenon with far-reaching impacts on the natural and built environments, FSM simulations provide crucial information to better understand and predict fire behavior in various landscapes. In this study, we tested Cell2Fire, a recently developed cellular automata-based FSM, against benchmarking models used in the U.S., Canada, and Chile. We experimented on synthetically generated landscapes (homogeneous and heterogeneous mix of fuels), applying Cell2Fire for the first time on U.S. landscapes, and found a high level of agreement between Cell2Fire and existing FSMs. However, FSMs may not always produce realistic simulations. In response, we used two optimization methods to improve the simulation’s accuracy. First, we adopted a multi-objective optimization algorithm that scales the elliptical shape of the Cell2Fire’s output based on rate of spread (ROS) and eccentricity. Second, we optimized four adjustment factors related to the fire spread (head ROS, back ROS, flank ROS, and eccentricity) using blackbox optimization (i.e., derivative-free optimization), minimizing the discrepancy of the output with respect to real burn data. We assessed the effectiveness of the optimization on the 2001 Dogrib Fire in Alberta, Canada and found that the optimized Cell2Fire result more accurately predicted the real burn in comparison to Prometheus, the standard Canadian FSM. From these results, users can adjust Cell2Fire and simulate more realistic burns and surpass the capabilities of benchmark FSMs, integrating local or custom-made FSM data to expand the simulator’s application.
 
 <br/>
 <p align="center">
   <img src="figures/graphical_abstract.jpg" width="900">
-  <br><i>Graphical abstract of Cell2FireML's framework</i>
+  <br><i>Graphical abstract</i>
 </p>
 
 # Highlights⚡
