@@ -1,0 +1,5 @@
+Instance,$\delta$ norm,MSE,F1,SSIM,AreaCell2Fire,AreaPrometheus
+dogrib_c2fvsReal,93.878,0.111,0.74,0.791,9057,10210
+dogrib_prom-real,91.875,0.106,0.741,0.799,8207,10210
+dogrib_c2f_BBOvsReal,79.278,0.079,0.826,0.818,10503,10210
+dogrib_c2fvsprom,29.155,0.011,0.972,0.959,8207,9057

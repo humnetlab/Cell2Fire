@@ -121,7 +121,7 @@ def compare_single_grids_v2(base_path, grid1, grid2, size, instance, save=False)
 
     Parameters:
     - base_path (str): Base directory path for saving images.
-    - grid1 (list): List of Cell2FireML's 2D grids
+    - grid1 (list): List of Cell2Fire's 2D grids
     - grid2 (list): List of FarSite's 2D grids
     - size (int): Size of the grid.
     - instance (str): Name of instance (e.g., "f101_100_ws10_CS100_5HR" which means:
@@ -163,7 +163,7 @@ def compare_single_grids_v2(base_path, grid1, grid2, size, instance, save=False)
     sm1 = plt.cm.ScalarMappable(cmap=cmap1)
     cbar1 = fig.colorbar(sm1, cax=cax1, orientation='horizontal')
     cbar1.set_ticks([0.1, 0.3, 0.5, 0.7, 0.9])
-    cbar1.set_ticklabels(['1H','2H','3H','4H','5H'], size=18)
+    cbar1.set_ticklabels(['1H','2H','3H','4H','5H'], size=36)
 
     ### Plot 2: Difference in fire spread ###
     diff = grid2[-1] - grid1[-1]
@@ -180,7 +180,7 @@ def compare_single_grids_v2(base_path, grid1, grid2, size, instance, save=False)
     sm2.set_clim(-1, 1)  # Set the color limits to match the desired values
     cbar2 = fig.colorbar(sm2, cax=cax2, orientation='horizontal')
     cbar2.set_ticks([2/3, 0, -2/3])
-    cbar2.set_ticklabels(['Underestimate','No Difference','Overestimate'],size=16, ha='center')  # Set custom tick labels
+    cbar2.set_ticklabels(['Under','No Diff','Over'],size=36, ha='center')  # Set custom tick labels
     cbar2.ax.yaxis.set_tick_params(pad=20)
 
     # Adjust grid extents 
@@ -206,7 +206,7 @@ def compare_single_grids(base_path, grid1, grid2, x_size, y_size, instance, fuel
 
     Parameters:
     - base_path (str): Base directory path for saving images.
-    - grid1 (np.array): Cell2FireML's 2D grid
+    - grid1 (np.array): Cell2Fire's 2D grid
     - grid2 (list): List of FarSite's 2D grids
     - size (int): Size of the grid.
     - instance (str): Name of instance (e.g., "f101_100_ws10_CS100_5HR" which means:

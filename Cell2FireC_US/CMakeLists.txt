@@ -12,7 +12,7 @@ add_compile_options(-std=c++11)
 
 
 ##### TORCH
-set(CMAKE_PREFIX_PATH /home/minho/fires/cell2fireML/libtorch ..)
+set(CMAKE_PREFIX_PATH /home/minho/fires/cell2fire/libtorch ..)
 find_package(Torch REQUIRED)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
 

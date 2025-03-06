@@ -1,4 +1,4 @@
-Instance,$\delta$ norm,MSE,F1,SSIM,AreaCell2FireML,AreaPrometheus,FTYPE,WS,LENGTH,RES,NCELLS,running_times_sec
+Instance,$\delta$ norm,MSE,F1,SSIM,AreaCell2Fire,AreaPrometheus,FTYPE,WS,LENGTH,RES,NCELLS,running_times_sec
 400CellsHomC1,4.583,0.052,0.947,0.731,205,188,C1,"variable [10,50]",400CellsHomC1,100,400,0.087
 400CellsHomC2,3.873,0.038,0.959,0.852,264,253,C2,"variable [10,50]",400CellsHomC2,100,400,0.108
 400CellsHomC3,5.0,0.062,0.937,0.677,201,192,C3,"variable [10,50]",400CellsHomC3,100,400,0.105

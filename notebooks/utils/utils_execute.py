@@ -183,7 +183,7 @@ def calculate_metrics(cell2fire, scar, instance_name='', fspread_name='Kitral'):
                               'MSE': [mse],
                               'F1': [f1],
                               'SSIM': [ssim_sc],
-                              'AreaCell2FireML': [area_cell2fire],
+                              'AreaCell2Fire': [area_cell2fire],
                               'Area' + fspread_name: [area_scar],
                               }).round(3)
     return df_results

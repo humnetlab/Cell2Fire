@@ -1,4 +1,4 @@
-Instance,$\delta$ norm,MSE,F1,SSIM,AreaCell2FireML,AreaKitral,FTYPE,running_time_s
+Instance,$\delta$ norm,MSE,F1,SSIM,AreaCell2Fire,AreaKitral,FTYPE,running_time_s
 Hom_Fuel_1,33.106,0.171,0.828,0.605,2593,3305,PCH1,0.474
 Hom_Fuel_2,20.616,0.066,0.931,0.749,2623,2544,PCH2,0.444
 Hom_Fuel_3,12.61,0.025,0.956,0.874,1062,1125,PCH3,0.269

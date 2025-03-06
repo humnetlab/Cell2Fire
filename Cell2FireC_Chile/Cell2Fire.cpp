@@ -1724,6 +1724,9 @@ int main(int argc, char* argv[]) {
 		// std::default_random_engine generator( args.seed * (TID + 1) );
 		std::default_random_engine& generator = generators[TID]; //generators[args.nthreads]
 
+		// Initialize XGBoost models
+		initialize_models();
+
 		// Random generator and distributions
 		std::uniform_int_distribution<int> udistribution(1, args.NWeatherFiles);		// Get random weather
 		std::normal_distribution<double> ndistribution(0.0, 1.0);  							// ROSRV

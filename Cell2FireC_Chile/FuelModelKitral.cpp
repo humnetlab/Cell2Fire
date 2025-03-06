@@ -1,5 +1,17 @@
 #include "FuelModelKitral.h"
 
+// Model
+#include <xgboost/c_api.h>
+// #include "rfHROS.h"
+// #include "rfBROS.h"
+// #include "rfFROS.h"
+
+#define CHECK_EQ(x, y) \
+    if ((x) != (y)) { \
+        std::cerr << "Error: " << __FILE__ << ":" << __LINE__ << ": " << "Expected " << (y) << " but got " << (x) << std::endl; \
+        exit(1); \
+    }
+
 #include <iostream>
 #include <math.h>
 #include <cmath>
@@ -12,6 +24,61 @@
 #include <vector>
 
 using namespace std;
+
+// Function to initialize XGBoost model
+// Global Variables for XGBoost Models
+BoosterHandle hros_model = nullptr;
+BoosterHandle bros_model = nullptr;
+BoosterHandle fros_model = nullptr;
+
+// Function to initialize XGBoost models
+void initialize_models() {
+    // Model paths
+    std::string hros_model_path = "/Users/minho/Documents/GitHub/Cell2Fire/Cell2FireC_US/HROS.bin";
+    std::string bros_model_path = "/Users/minho/Documents/GitHub/Cell2Fire/Cell2FireC_US/BROS.bin";
+    std::string fros_model_path = "/Users/minho/Documents/GitHub/Cell2Fire/Cell2FireC_US/FROS.bin";
+
+    // Initialize models
+    if (XGBoosterCreate(NULL, 0, &hros_model) != 0 ||
+        XGBoosterLoadModel(hros_model, hros_model_path.c_str()) != 0 ||
+        XGBoosterCreate(NULL, 0, &bros_model) != 0 ||
+        XGBoosterLoadModel(bros_model, bros_model_path.c_str()) != 0 ||
+        XGBoosterCreate(NULL, 0, &fros_model) != 0 ||
+        XGBoosterLoadModel(fros_model, fros_model_path.c_str()) != 0) {
+        std::cerr << "Error initializing models" << std::endl;
+        exit(1);
+    }
+}
+
+void cleanup_models() {
+    if (hros_model) {
+        XGBoosterFree(hros_model);
+        hros_model = nullptr;
+    }
+    if (bros_model) {
+        XGBoosterFree(bros_model);
+        bros_model = nullptr;
+    }
+    if (fros_model) {
+        XGBoosterFree(fros_model);
+        fros_model = nullptr;
+    }
+}
+
+// Function to perform prediction
+void predict(BoosterHandle booster, const std::vector<float>& features, std::vector<float>& predictions) {
+    DMatrixHandle dmatrix;
+    bst_ulong num_features = features.size();
+    CHECK_EQ(XGDMatrixCreateFromMat(features.data(), 1, num_features, -1, &dmatrix), 0);
+
+    bst_ulong out_len;
+    const float* preds;
+    // Corrected function call with the right number of arguments
+    CHECK_EQ(XGBoosterPredict(booster, dmatrix, 0, 0, 0, &out_len, &preds), 0);
+    predictions.assign(preds, preds + out_len);
+
+    XGDMatrixFree(dmatrix);
+}
 
 /*
 	Global coefficients
@@ -791,6 +858,38 @@ float backfire_ros10(fire_struc *hptr, snd_outs *sec)
     // Hack: Initialize coefficients 
     setup_const();
 
+    /*/ Random Forest prediction (Using .h files via m2cgen) /*/ 
+    // double hros_pred = hros(array);
+    // double bros_pred = bros(array);
+    // double fros_pred = fros(array);
+    
+    /*/ XGBOOST prediction /*/
+    // Model paths
+    std::string hros_model_path = "/Users/minho/Documents/GitHub/Cell2Fire/Cell2FireC_Chile/HROS.bin";
+    std::string bros_model_path = "/Users/minho/Documents/GitHub/Cell2Fire/Cell2FireC_Chile/BROS.bin";
+    std::string fros_model_path = "/Users/minho/Documents/GitHub/Cell2Fire/Cell2FireC_Chile/FROS.bin";
+
+    // Convert array to vector of floats
+    std::vector<float> features(array, array + sizeof(array) / sizeof(array[0]));
+
+    // Predict
+    std::vector<float> hros_predictions;  
+    std::vector<float> bros_predictions;    
+    std::vector<float> fros_predictions;
+
+    predict(hros_model, features, hros_predictions);
+    predict(bros_model, features, bros_predictions);
+    predict(fros_model, features, fros_predictions);
+
+    float hros_pred = hros_predictions.empty() ? 0.0 : hros_predictions[0];
+    float bros_pred = bros_predictions.empty() ? 0.0 : bros_predictions[0];
+    float fros_pred = fros_predictions.empty() ? 0.0 : fros_predictions[0];
+
+    // // Clean up
+    // XGBoosterFree(hros_model);
+    // XGBoosterFree(bros_model);
+    // XGBoosterFree(fros_model);
+
 	// Aux
 	float  ros, bros, lb, fros;
 	bool crownFire=false;
@@ -814,17 +913,21 @@ float backfire_ros10(fire_struc *hptr, snd_outs *sec)
     float elevation_origin=data->elev;
     float elevation_destiny=head->elev;
     at->se=slope_effect(elevation_origin,elevation_destiny,cellsize);
+
     // Step 1: Calculate HROS (surface)
-    at->rss = rate_of_spread(data, ptr, at);
+    // at->rss = rate_of_spread(data, ptr, at);
+    at->rss = hros_pred;
     hptr->rss = at->rss ;
     // Step 2: Calculate Length-to-breadth
     sec->lb = l_to_b(data->ws, ptr) ;
     
     // Step 3: Calculate BROS (surface)
-    bptr->rss = backfire_ros(at, sec) ;
+    // bptr->rss = backfire_ros(at, sec) ;
+    bptr->rss = bros_pred;
     
     // Step 4: Calculate central FROS (surface)
-    fptr->rss = flankfire_ros(hptr->rss, bptr->rss, sec->lb);
+    // fptr->rss = flankfire_ros(hptr->rss, bptr->rss, sec->lb);
+    fptr->rss = fros_pred;
     
     // Step 5: Ellipse components
     at->a = (hptr->rss + bptr->rss) / 2. ;
@@ -834,7 +937,6 @@ float backfire_ros10(fire_struc *hptr, snd_outs *sec)
     // Step 6: Byram Intensity
     at->byram = byram_intensity(data,at);
     
-
     // Step 7: Flame Length
     at->fl = flame_length(data, at);
     
