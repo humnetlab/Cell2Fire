@@ -748,8 +748,8 @@ std::vector<double> Cells::ellipse_adjusted(double hros_mmin,
     double ws_ms, LW, Ebar_c, Ebar, ros_mmin_c, a, b, c;
 
     // Wind speed transformation from km/hr to m/s
-    ws_ms = (ws_kmhr * 1000.) / 3600.;
-    // ws_ms = ws_kmhr * 0.44704; // mph to m/s
+    // ws_ms = (ws_kmhr * 1000.) / 3600.;
+    ws_ms = ws_kmhr * 0.44704; // mph to m/s
     
     // LB = LW using alpha and beta parameters
     if (lb_estimation_scheme == 0){
@@ -1362,8 +1362,7 @@ Cells::manageFire(int period,
                     determine_destiny_metrics_s(&df_ptr[int(nb) - 1], coef, args, &metrics);
                 }
                 else if (args->Simulator == "C")
-                {   
-                    std::cout << "DEBUGGING MANAGEFIRE NOT BBO -- SIMULATOR C" << std::endl;
+                {
                     determine_destiny_metrics_fbp(&df_ptr[int(nb) - 1], coef, &metrics, &metrics2);
                 }
                 crownState[this->realId - 1] = mainstruct.crown;
@@ -1538,18 +1537,7 @@ Cells::manageFireBBO(int period,
 
     else if (args->Simulator == "C")
     {
-        std::cout << "SIMULATOR C" << std::endl;
-        std::cout << "DEBUGGING in managefireBBO: " << this->realId - 1 << std::endl;
-        std::cout << "fueltype: " << df_ptr->fueltype << std::endl;
-        
-        calculate_fbp(df_ptr,
-                    // &df_ptr[this->realId - 1], 
-                    coef, 
-                    &mainstruct, 
-                    &sndstruct, 
-                    &headstruct, 
-                    &flankstruct, 
-                    &backstruct);
+        calculate_fbp(&df_ptr[this->realId - 1], coef, &mainstruct, &sndstruct, &headstruct, &flankstruct, &backstruct);
     }
 
     /*  ROSs DEBUG!   */
@@ -1589,20 +1577,20 @@ Cells::manageFireBBO(int period,
     }
     /*                         */
 
-    // double cartesianAngle = 270 - wdf_ptr->waz;  // - 90;   // CHECK!!!!!
-    // if (cartesianAngle < 0)
-    // {
-    //     cartesianAngle += 360;
-    // }
+    double cartesianAngle = 270 - wdf_ptr->waz;  // - 90;   // CHECK!!!!!
+    if (cartesianAngle < 0)
+    {
+        cartesianAngle += 360;
+    }
 
     // Adjusting from Spanish forests angle
-    double cartesianAngle = wdf_ptr->waz;
-    // double offset = cartesianAngle + 270;
-    // cartesianAngle = 360 - (offset >= 360) * (cartesianAngle - 90) - (offset < 360) * offset;
-    // if (cartesianAngle == 360)
-    //     cartesianAngle = 0;
-    // if (cartesianAngle < 0)
-    //     cartesianAngle += 360;
+    cartesianAngle = wdf_ptr->waz;
+    double offset = cartesianAngle + 270;
+    cartesianAngle = 360 - (offset >= 360) * (cartesianAngle - 90) - (offset < 360) * offset;
+    if (cartesianAngle == 360)
+        cartesianAngle = 0;
+    if (cartesianAngle < 0)
+        cartesianAngle += 360;
 
     double ROSRV = 0;
     if (args->ROSCV > 0)
@@ -1646,63 +1634,7 @@ Cells::manageFireBBO(int period,
             std::cout << "Cell can send messages" << std::endl;
         }
 
-        // Read and load K opt csv file + create dictionary (v2)
-        double wss = wdf_ptr->ws; // Get wind
-        std::vector<double> k_opts; // Vector of k_opts
-
-        // K-Factors from optimization
-        if (args->KFactor1) 
-        {
-            k_opts.push_back(args->KFactor1);
-            k_opts.push_back(args->KFactor2);
-            k_opts.push_back(args->KFactor3);
-            k_opts.push_back(args->KFactor4);
-            k_opts.push_back(args->KFactor5);
-        }
-
-        // ROS Boosters (placeholder in case they are needed in the future, for each neighbor)
-        std::unordered_map<int, double> ros_boosters; // Define the boosters
-        
-        // Insert boosters for each angle
-        ros_boosters[0] = 1.;
-        ros_boosters[45] = 1.;
-        ros_boosters[315] = 1.;
-        ros_boosters[90] = 1.;
-        ros_boosters[270] = 1.;
-        ros_boosters[180] = 1.;
-        ros_boosters[135] = 1.;
-        ros_boosters[225] = 1.;
-        
-        // ROS Distribution for the US (v2)
-        if (args->Simulator == "US")
-        {     
-        // std::cout << "DEBUGGING ROS Distribution for US!!" << std::endl;
-
-        // Distribute ROS per theta angle
-        // std::cout << "DEBUGGING EllipticalOption for US!!" << args->EllipticalOption << std::endl;
-        // std::cout << "DEBUGGING LBFormula for US!!" << args->LBFormula << std::endl;
-
-        ros_distr_US(cartesianAngle,
-                  headstruct.ros * args->HFactor,
-                  flankstruct.ros * args->FFactor, 
-                  backstruct.ros * args->BFactor,
-                  sndstruct.lb,
-                  wss,
-                  args->EllipticalOption,
-                  args->CenteredDistribution,
-                  args->NoAngleOffset,
-                  args->EFactor,
-                  kdict_ptr, // From ManageFire --> ros_distr --> ellipse_adjusted (MHK)
-                  k_opts, // Table (Dataformat) format coming from main
-                  ros_boosters,
-                  args->LBFormula,
-                  args,
-                //   args->KOption,
-                  args->verbose);       
-        }
-        else
-        {
-        // Main C2F-W distribution
+        // ROS distribution method
         // ros_distr(mainstruct.raz,  headstruct.ros, flankstruct.ros,
         // backstruct.ros); std::cout << "Entra a Ros Dist" << std::endl;
         /*ros_distr(cartesianAngle,
@@ -1717,7 +1649,7 @@ Cells::manageFireBBO(int period,
                      mainstruct.c * EllipseFactors[2],
                      EllipseFactors[3]);
         // std::cout << "Sale de Ros Dist" << std::endl;
-        }
+
         // Fire progress using ROS from burning cell, not the neighbors //
         // vector<double> toPop = vector<double>();
 
@@ -1728,31 +1660,13 @@ Cells::manageFireBBO(int period,
             int nb = angleToNb[angle];
             double ros = (1 + args->ROSCV * ROSRV) * _angle.second;
 
-            if (std::isnan(ros))
-            {
-                ros = 1e-4;
-            }
-
             if (args->verbose)
             {
                 std::cout << "     (angle, realized ros in m/min): (" << angle << ", " << ros << ")" << std::endl;
             }
 
             // Workaround PeriodLen in 60 minutes
-            if (args->Simulator == "S" || args->Simulator == "US")
-            {
-                // Slope effect
-                float se = slope_effect(df_ptr[this->realId - 1].elev, df_ptr[nb - 1].elev, this->perimeter / 4.);
-                if (args->verbose)
-                {
-                    std::cout << "Slope effect: " << se << std::endl;
-                }
-
-                // Workaround PeriodLen in 60 minutes
-                this->fireProgress[nb] += ros * args->FirePeriodLen * se;  // Updates fire progress
-            }
-            else
-                this->fireProgress[nb] += ros * args->FirePeriodLen;
+            this->fireProgress[nb] += ros * args->FirePeriodLen;  // Updates fire progress
 
             // If the message arrives to the adjacent cell's center, send a
             // message
@@ -1773,7 +1687,6 @@ Cells::manageFireBBO(int period,
                 }
                 else if (args->Simulator == "C")
                 {
-                    std::cout << "MANAGEFIRE BBO --SIMULATOR C" << std::endl;
                     determine_destiny_metrics_fbp(&df_ptr[int(nb) - 1], coef, &metrics, &metrics2);
                 }
                 crownState[this->realId - 1] = mainstruct.crown;
@@ -1806,12 +1719,7 @@ Cells::manageFireBBO(int period,
                               << std::endl;
                     std::cout << "Main workaround of the new sim logic....." << std::endl;
                 }
-                std::cout << "DEBUGGING nb : " << nb << std::endl;
-                std::cout << "DEBUGGING MESSAGES : " << msg_list_aux[0] << std::endl;
-                std::cout << "DEBUGGING repeat : " << repeat << std::endl;
-
                 msg_list_aux[0] = repeat;
-            
             }
         }
 
@@ -1930,13 +1838,7 @@ Cells::get_burned(int period,
 
     else if (args->Simulator == "C")
     {
-        calculate_fbp(&(df[this->id]), 
-                    coef, 
-                    &mainstruct, 
-                    &sndstruct, 
-                    &headstruct, 
-                    &flankstruct, 
-                    &backstruct);
+        calculate_fbp(&df[this->id], coef, &mainstruct, &sndstruct, &headstruct, &flankstruct, &backstruct);
     }
 
     if (args->verbose)
@@ -2094,15 +1996,8 @@ Cells::ignition(int period,
         }
         else if (args->Simulator == "C")
         {
-            std::cout << "DEBUGGING CALCULATE FBP IN IGNITION" << std::endl;
-            calculate_fbp(df_ptr,
-                        // &df_ptr[this->realId - 1],
-                        coef, 
-                        &mainstruct, 
-                        &sndstruct, 
-                        &headstruct, 
-                        &flankstruct, 
-                        &backstruct);
+            calculate_fbp(
+                &df_ptr[this->realId - 1], coef, &mainstruct, &sndstruct, &headstruct, &flankstruct, &backstruct);
         }
 
         if (args->verbose)

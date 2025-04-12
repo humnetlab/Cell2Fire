@@ -566,10 +566,10 @@ Cell2Fire::Cell2Fire(arguments _args)
     {
         int maxFP = this->args.MinutesPerWP / this->args.FirePeriodLen * WPeriods;
         if (this->args.MaxFirePeriods > maxFP)
-        {            
+        {
             this->args.MaxFirePeriods = maxFP;
             if (this->args.verbose)
-            {   
+            {
                 std::cout << "Maximum fire periods are set to: " << this->args.MaxFirePeriods
                           << " based on the weather file, Fire Period Length, "
                              "and Minutes per WP"
@@ -1475,10 +1475,7 @@ Cell2Fire::SendMessages()
         */
         if (it->second.ROSAngleDir.size() > 0)
         {
-            if (this->args.verbose)
-            {   
-            std::cout << "Enter Manage Fire" << std::endl;
-            }
+            // std::cout << "Entra a Manage Fire" << std::endl;
             if (!this->args.BBOTuning)
             {  //&df[cell-1] replaced by full df for getting the slopes
                 aux_list = it->second.manageFire(this->fire_period[this->year - 1],
@@ -1509,12 +1506,7 @@ Cell2Fire::SendMessages()
             {
                 // TODO  MAY 11: Pass the slope factor or the slopes of the
                 // adjacent cells
-                auto factors = BBOFactors.find(NFTypesCells[cell-1]); // Fix in v2
-                if (this->args.verbose)
-                {   
-                std::cout << "Enter ManageBBO Fire" << std::endl;
-                }
-
+                auto factors = BBOFactors.find(NFTypesCells[cell - 1]);
                 aux_list = it->second.manageFireBBO(this->fire_period[this->year - 1],
                                                     this->availCells,
                                                     &df[cell - 1],
@@ -1536,10 +1528,7 @@ Cell2Fire::SendMessages()
                                                     this->RateOfSpreads,
                                                     this->surfaceFlameLengths);
             }
-            if (this->args.verbose)
-            {   
-            std::cout << "Exit ManageBBO Fire" << std::endl;
-            }
+            // std::cout << "Sale de Manage Fire" << std::endl;
         }
 
         else

@@ -207,8 +207,7 @@ class Cells
 
     std::vector<int> manageFireBBO(int period,
                                    std::unordered_set<int>& AvailSet,
-                                //    inputs* df_ptr,
-                                   inputs df[],
+                                   inputs* df_ptr,
                                    fuel_coefs* coef,
                                    std::vector<std::vector<int>>& coordCells,
                                    std::unordered_map<int, Cells>& Cells_Obj,

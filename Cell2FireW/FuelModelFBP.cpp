@@ -399,11 +399,10 @@ get_fueltype_number(fuel_coefs** ptr, char fuel[4])
         fuel[2] += 'a' - 'A';
     for (i = 0; i < numfuels && (strncmp((*ptr)->fueltype, fuel, 3) != 0); i++)
         (*ptr)++;
-
     if (i >= numfuels)
     {
         printf(" %s not a recognizable fuel type\n ", fuel);
-        exit(9);
+        // exit(9);
         cover = 'f';
         return (cover);
     }
