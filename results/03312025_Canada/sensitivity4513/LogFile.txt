@@ -1,0 +1,50 @@
+------ Command line values ------
+InFolder: /Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib 
+OutFolder: /Users/minho/Documents/GitHub/Cell2FireML/results/03312025_Canada/sensitivity4513 
+WeatherOpt: rows 
+Ignitions: 1 
+FinalGrid: 1 
+TotalYears: 1 
+TotalSims: 1 
+Simulator: C 
+FirePeriodLength: 0.5 
+IgnitionRadius: 0 
+MC Number: 4513 
+EllipticalOption: 1 
+LBFormula: 0 
+ROSThreshold: 0.0 
+HFIThreshold: 0.0 
+HFactor: 2.5 
+FFactor: 1.0 
+BFactor: 0.5 
+EFactor: 0.0 
+ROS-CV: 0.0 
+seed: 123 
+nthreads: 1 
+Using .asc
+No cbd.asc file, filling with NaN
+No cbh.asc file, filling with NaN
+No ccf.asc file, filling with NaN
+No py.asc file, filling with NaN
+No fmc.asc file, filling with NaN
+No hm.asc file, filling with NaN
+Data file generated successfully
+File Generated------------------Forest Data ----------------------
+
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/fuels.asc
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Data.csv
+Forest DataFrame from instance /Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Data.csv
+Number of cells: 79611
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Weather.csv
+
+Weather DataFrame from instance /Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Weather.csv
+Weather Periods: 8
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Ignitions.csv
+There are 1 threads
+
+Selected ignition point for Year 1, sim 1: 66850
+----------------------------- Results -----------------------------
+Total Available Cells:    69958 - % of the Forest: 87.8748%
+Total Burnt Cells:        1 - % of the Forest: 0.00125611%
+Total Non-Burnable Cells: 9652 - % of the Forest: 12.124%
+Total Firebreak Cells: 0 - % of the Forest: 0%

@@ -1,0 +1,31 @@
+------ Command line values ------
+InFolder: /Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib 
+OutFolder: /Users/minho/Documents/GitHub/Cell2FireML/results/03312025_Canada/dogrib_bbo/sensitivity780 
+WeatherOpt: rows 
+Ignitions: 1 
+FinalGrid: 1 
+BBOTuning: 0 
+TotalYears: 1 
+TotalSims: 1 
+Simulator: C 
+FirePeriodLength: 0.0 
+IgnitionRadius: 0 
+MC Number: 780 
+EllipticalOption: 1 
+LBFormula: 0 
+ROSThreshold: 0.0 
+HFIThreshold: 0.0 
+HFactor: 0.0 
+FFactor: 1.0 
+BFactor: 2.0 
+EFactor: 0.0 
+ROS-CV: 0.0 
+seed: 123 
+nthreads: 1 
+Using .asc
+No cbd.asc file, filling with NaN
+No cbh.asc file, filling with NaN
+No ccf.asc file, filling with NaN
+No py.asc file, filling with NaN
+No fmc.asc file, filling with NaN
+No hm.asc file, filling with NaN

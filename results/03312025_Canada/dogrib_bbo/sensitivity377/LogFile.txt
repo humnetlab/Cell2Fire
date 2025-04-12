@@ -1,0 +1,54 @@
+------ Command line values ------
+InFolder: /Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib 
+OutFolder: /Users/minho/Documents/GitHub/Cell2FireML/results/03312025_Canada/dogrib_bbo/sensitivity377 
+WeatherOpt: rows 
+Ignitions: 1 
+FinalGrid: 1 
+BBOTuning: 0 
+TotalYears: 1 
+TotalSims: 1 
+Simulator: C 
+FirePeriodLength: 0.2 
+IgnitionRadius: 0 
+MC Number: 377 
+EllipticalOption: 1 
+LBFormula: 0 
+ROSThreshold: 0.0 
+HFIThreshold: 0.0 
+HFactor: 0.0 
+FFactor: 0.0 
+BFactor: 1.0 
+EFactor: 1.5 
+ROS-CV: 0.0 
+seed: 123 
+nthreads: 1 
+Using .asc
+No cbd.asc file, filling with NaN
+No cbh.asc file, filling with NaN
+No ccf.asc file, filling with NaN
+No py.asc file, filling with NaN
+No fmc.asc file, filling with NaN
+No hm.asc file, filling with NaN
+Data file generated successfully
+File Generated------------------Forest Data ----------------------
+
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/fuels.asc
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Data.csv
+Forest DataFrame from instance /Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Data.csv
+Number of cells: 79611
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Weather.csv
+
+Weather DataFrame from instance /Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Weather.csv
+Weather Periods: 8
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/Ignitions.csv
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/canada_dogrib/BBOFuels.csv
+BBO Factors:
+ 31: 2.066 1.675 0.269 10.82  11: 0.263 2.569 0.825 1.625  7: 1.018 1.068 1.05 3.17  4: 1.158 1.138 0.287 49.111  3: 2.289 0.996 1.188 1.93  2: 2.462 0.955 1.388 2.425  40: 0.987 0.962 0.95 1.004  1: 1.623 1.243 1.023 2.479 
+There are 1 threads
+
+Selected ignition point for Year 1, sim 1: 66850
+----------------------------- Results -----------------------------
+Total Available Cells:    69958 - % of the Forest: 87.8748%
+Total Burnt Cells:        1 - % of the Forest: 0.00125611%
+Total Non-Burnable Cells: 9652 - % of the Forest: 12.124%
+Total Firebreak Cells: 0 - % of the Forest: 0%

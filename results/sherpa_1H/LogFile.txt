@@ -1,0 +1,2104 @@
+------ Command line values ------
+InFolder: /Users/minho/Documents/GitHub/Cell2FireML/data/real/sherpa_1H/ 
+OutFolder: /Users/minho/Documents/GitHub/Cell2FireML/results/sherpa_1H/ 
+WeatherOpt: rows 
+HarvestPlan:  
+Ignitions: 1 
+FinalGrid: 1 
+TotalYears: 1 
+TotalSims: 1 
+NWeatherFiles: 1 
+FirePeriodLength: 2 
+IgnitionRadius: 0 
+EllipticalOption: 1 
+LBFormula: 0 
+ROSThreshold: 0.0 
+HFIThreshold: 0.0 
+HFactor: 1.0 
+FFactor: 1.0 
+BFactor: 1.0 
+EFactor: 0.5 
+ROS-CV: 0.0 
+seed: 123 
+Forest DataFrame from instance /Users/minho/Documents/GitHub/Cell2FireML/data/real/sherpa_1H/Data.csv
+Number of cells: 110514
+
+Weather DataFrame from instance /Users/minho/Documents/GitHub/Cell2FireML/data/real/sherpa_1H/Weather.csv
+
+Selected ignition point for Year 1, sim 1: 14143
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 49000 nanoseconds
+Time taken for step 0: 244 microseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 24000 nanoseconds
+Time taken for step 1: 81 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+Time taken for step 2: 77 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 3: 60 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 4: 58 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 5: 56 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 6: 81 microseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+Time taken for step 7: 153 microseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 8: 236 microseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+Time taken for step 9: 191 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+Time taken for step 10: 226 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 15000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+Time taken for step 11: 304 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+Time taken for step 12: 284 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 13: 267 microseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 14: 294 microseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+Time taken for step 15: 342 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 16: 429 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+Time taken for step 17: 453 microseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+Time taken for step 18: 408 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 16000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 19: 504 microseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 3000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 3000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 4000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 2000 nanoseconds
+Time taken for step 20: 1022 microseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 2000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 0.76 | 0.0313114 | 0.178126
+Time taken: 16000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 21: 623 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 0.76 | 0.0313114 | 0.178126
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 3000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 2000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 3000 nanoseconds
+Time taken for step 22: 997 microseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 2000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 2000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 0.76 | 0.0313114 | 0.178126
+Time taken: 3000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 2000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 2000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 2000 nanoseconds
+
+(BP)Predicted : 13.73 | 0.274661 | 3.21799
+Time taken: 24000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+Time taken for step 23: 1558 microseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.73 | 0.274661 | 3.21799
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 0.76 | 0.0313114 | 0.178126
+Time taken: 3000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+Time taken for step 24: 720 microseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.73 | 0.274661 | 3.21799
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 0.76 | 0.0313114 | 0.178126
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 0 nanoseconds
+Time taken for step 25: 689 microseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.73 | 0.274661 | 3.21799
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 0.76 | 0.0313114 | 0.178126
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 6000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 4000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 3000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 3000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 4000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 2000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+Time taken for step 26: 2122 microseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.73 | 0.274661 | 3.21799
+Time taken: 3000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 0.76 | 0.0313114 | 0.178126
+Time taken: 2000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+Time taken for step 27: 744 microseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.73 | 0.274661 | 3.21799
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.25 | 0.0516363 | 0.29297
+Time taken: 19000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.73 | 0.274661 | 3.21799
+Time taken: 0 nanoseconds
+Time taken for step 28: 745 microseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 1.25 | 0.0516363 | 0.29297
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.73 | 0.274661 | 3.21799
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.73 | 0.274661 | 3.21799
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 1.09 | 0.0444951 | 0.25547
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 13.54 | 0.313663 | 3.17346
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 1000 nanoseconds
+
+(BP)Predicted : 8.62 | 0.083497 | 2.02032
+Time taken: 4000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 3000 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+
+(BP)Predicted : 31.76 | 0.956371 | 7.44379
+Time taken: 0 nanoseconds
+Time taken for step 29: 899 microseconds
+
+----------------------------- Results -----------------------------
+Total Available Cells:    97891 - % of the Forest: 88.5779%
+Total Burnt Cells:        90 - % of the Forest: 0.0814376%
+Total Non-Burnable Cells: 12533 - % of the Forest: 11.3406%
+Total Harvested Cells: 0 - % of the Forest: 0%
+Time taken for step 30: 77175 microseconds

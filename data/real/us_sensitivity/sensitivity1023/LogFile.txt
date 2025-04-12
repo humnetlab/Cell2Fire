@@ -1,0 +1,53 @@
+------ Command line values ------
+InFolder: /Users/minho/Documents/GitHub/Cell2FireML/data/real/Sherpa_10H 
+OutFolder: /Users/minho/Documents/GitHub/Cell2FireML/data/real/03312025/sensitivity1023 
+WeatherOpt: rows 
+Ignitions: 1 
+FinalGrid: 1 
+TotalYears: 1 
+TotalSims: 1 
+Simulator: US 
+FirePeriodLength: 2 
+IgnitionRadius: 0 
+MC Number: 1023 
+EllipticalOption: 1 
+LBFormula: 0 
+ROSThreshold: 0.0 
+HFIThreshold: 0.0 
+HFactor: 1.0 
+FFactor: 0.7 
+BFactor: 0.5 
+EFactor: 0.6 
+ROS-CV: 0.0 
+seed: 123 
+nthreads: 1 
+Using .asc
+No saz.asc file, filling with NaN
+No slope.asc file, filling with NaN
+No cur.asc file, filling with NaN
+No cbd.asc file, filling with NaN
+No cbh.asc file, filling with NaN
+No ccf.asc file, filling with NaN
+No py.asc file, filling with NaN
+No fmc.asc file, filling with NaN
+No hm.asc file, filling with NaN
+Data file generated successfully
+File Generated------------------Forest Data ----------------------
+
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/Sherpa_10H/fuels.asc
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/Sherpa_10H/Data.csv
+Forest DataFrame from instance /Users/minho/Documents/GitHub/Cell2FireML/data/real/Sherpa_10H/Data.csv
+Number of cells: 110514
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/Sherpa_10H/Weather.csv
+
+Weather DataFrame from instance /Users/minho/Documents/GitHub/Cell2FireML/data/real/Sherpa_10H/Weather.csv
+Weather Periods: 10
+/Users/minho/Documents/GitHub/Cell2FireML/data/real/Sherpa_10H/Ignitions.csv
+There are 1 threads
+
+Selected ignition point for Year 1, sim 1: 14143
+----------------------------- Results -----------------------------
+Total Available Cells:    92839 - % of the Forest: 84.0066%
+Total Burnt Cells:        5142 - % of the Forest: 4.6528%
+Total Non-Burnable Cells: 12533 - % of the Forest: 11.3406%
+Total Firebreak Cells: 0 - % of the Forest: 0%

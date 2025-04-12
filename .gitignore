@@ -1,2 +1,5 @@
-
 .DS_Store
+/unused
+/notebooks/utils/__pycache__
+/notebooks/unused
+/data/fsm/unused

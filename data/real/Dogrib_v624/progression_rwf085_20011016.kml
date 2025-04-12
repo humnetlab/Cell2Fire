@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>progression_rwf085_20011016.kml</name>
+	<Schema name="progression_rwf085_20011016" id="S_progression_rwf085_20011016_SSSD">
+		<SimpleField type="string" name="FIRENUMBER"><displayName>&lt;b&gt;FIRENUMBER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CAPTURDATE"><displayName>&lt;b&gt;CAPTURDATE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TIME"><displayName>&lt;b&gt;TIME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="HECTARES"><displayName>&lt;b&gt;HECTARES&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FIRENUMBER</b></td><td>$[progression_rwf085_20011016/FIRENUMBER]</td></tr>
+  <tr><td><b>DATE</b></td><td>$[progression_rwf085_20011016/CAPTURDATE]</td></tr>
+  <tr><td><b>TIME</b></td><td>$[progression_rwf085_20011016/TIME]</td></tr>
+  <tr><td><b>HECTARES</b></td><td>$[progression_rwf085_20011016/HECTARES]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80cccccc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FIRENUMBER</b></td><td>$[progression_rwf085_20011016/FIRENUMBER]</td></tr>
+  <tr><td><b>DATE</b></td><td>$[progression_rwf085_20011016/CAPTURDATE]</td></tr>
+  <tr><td><b>TIME</b></td><td>$[progression_rwf085_20011016/TIME]</td></tr>
+  <tr><td><b>HECTARES</b></td><td>$[progression_rwf085_20011016/HECTARES]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80cccccc</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>progression_rwf085_20011016</name>
+		<Placemark>
+			<name>2001-10-16 14:30</name>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_progression_rwf085_20011016_SSSD">
+					<SimpleData name="FIRENUMBER">RWF085</SimpleData>
+					<SimpleData name="CAPTURDATE">2001-10-16</SimpleData>
+					<SimpleData name="TIME">1430</SimpleData>
+					<SimpleData name="HECTARES">436.147</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-115.4449090111922,51.66114223580824,0 -115.4481393662983,51.66403088757779,0 -115.4529617861469,51.66596883170756,0 -115.4581496690157,51.66636248708885,0 -115.4664359542832,51.66433745023405,0 -115.4722310847495,51.66214646383754,0 -115.4773317899832,51.65891457630654,0 -115.4808128892313,51.6574701473732,0 -115.483984088728,51.65591138721374,0 -115.4832339052207,51.65597601004366,0 -115.4810044684558,51.65580076100435,0 -115.4796844071718,51.65469075996945,0 -115.4779078053442,51.65287648232773,0 -115.4779068034312,51.65054673860567,0 -115.4779022771158,51.64831145759301,0 -115.480303890311,51.64692545719653,0 -115.4767017428347,51.64667921561923,0 -115.4713106260022,51.6462242310987,0 -115.4683826952213,51.64670369397686,0 -115.4652035940666,51.64847488545826,0 -115.4608078916146,51.64931977045171,0 -115.4532246083925,51.64908842053693,0 -115.4468779351658,51.64920269337976,0 -115.4443937215223,51.64884781581867,0 -115.4420475988248,51.65056125244404,0 -115.4411944127886,51.65423448334265,0 -115.4418812011733,51.65845062568003,0 -115.4449090111922,51.66114223580824,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>2001-10-16 16:30</name>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_progression_rwf085_20011016_SSSD">
+					<SimpleData name="FIRENUMBER">RWF085</SimpleData>
+					<SimpleData name="CAPTURDATE">2001-10-16</SimpleData>
+					<SimpleData name="TIME">1630</SimpleData>
+					<SimpleData name="HECTARES">1142.11</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-115.4075393708635,51.67383503464994,0 -115.4133815966426,51.67637372947074,0 -115.4193840105803,51.68027432027569,0 -115.4245549806858,51.68118224170537,0 -115.4328994104928,51.67760771483053,0 -115.4391184888497,51.67225502396289,0 -115.4435481778361,51.67050232174513,0 -115.4535241996989,51.66778817630758,0 -115.4576457120199,51.66632397358598,0 -115.4529617861469,51.66596883170752,0 -115.4481393662983,51.66403088757779,0 -115.4449090111922,51.66114223580824,0 -115.4418812011733,51.65845062568003,0 -115.4411944127886,51.65423448334265,0 -115.4416576769439,51.65224031588916,0 -115.435503695447,51.65940094598735,0 -115.4237220043683,51.65724023147972,0 -115.4127162862629,51.65669923445522,0 -115.3984113246353,51.65534089182,0 -115.3824749979522,51.65603252466496,0 -115.3745048347592,51.65785723508001,0 -115.3678901026053,51.66249263867705,0 -115.3673834505489,51.66791827897521,0 -115.3709207251408,51.67372699666914,0 -115.3766328202463,51.67690657961419,0 -115.3822008023955,51.67834130413286,0 -115.3920890186186,51.67530884897144,0 -115.3963766138975,51.67174588876553,0 -115.3995144671702,51.67127201003156,0 -115.4018263912253,51.67356687284666,0 -115.4075393708635,51.67383503464994,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>2001-10-16 18:30</name>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_progression_rwf085_20011016_SSSD">
+					<SimpleData name="FIRENUMBER">RWF085</SimpleData>
+					<SimpleData name="CAPTURDATE">2001-10-16</SimpleData>
+					<SimpleData name="TIME">1830</SimpleData>
+					<SimpleData name="HECTARES">1248.62</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-115.3261707739806,51.67608606292951,0 -115.3140182263856,51.68181756245458,0 -115.296374813059,51.68688714652831,0 -115.293035898622,51.69017422316779,0 -115.2991538935817,51.6944449496829,0 -115.3066897430946,51.69769971980385,0 -115.3220855325996,51.69963293738439,0 -115.3292383331449,51.70087691647321,0 -115.34456327918,51.69642989256785,0 -115.360899902431,51.68933320765944,0 -115.3727436953828,51.68359334386886,0 -115.3815628248393,51.67818146633179,0 -115.3766328202463,51.67690657961419,0 -115.3709207251408,51.67372699666914,0 -115.3673834505489,51.66791827897517,0 -115.3678901026053,51.66249263867705,0 -115.3699271589478,51.66106527195715,0 -115.3521815118382,51.66798733015866,0 -115.3261707739806,51.67608606292951,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>2001-10-16 19:42</name>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_progression_rwf085_20011016_SSSD">
+					<SimpleData name="FIRENUMBER">RWF085</SimpleData>
+					<SimpleData name="CAPTURDATE">2001-10-16</SimpleData>
+					<SimpleData name="TIME">1942</SimpleData>
+					<SimpleData name="HECTARES">1617.9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-115.2850303194347,51.69983661478537,0 -115.2698005483778,51.70844934069511,0 -115.245625272034,51.72043874972537,0 -115.2381288930814,51.72733985218954,0 -115.2392601703776,51.73310784108361,0 -115.2471557794947,51.73926206026791,0 -115.2603299293332,51.7433848003434,0 -115.268488258637,51.74280426146974,0 -115.2761229955771,51.73814516316654,0 -115.2872389819877,51.73101247825368,0 -115.296530048512,51.72427463193964,0 -115.3174065195586,51.70956270686465,0 -115.3289439014361,51.70082377084047,0 -115.3220855325996,51.69963293738439,0 -115.3066897430946,51.69769971980385,0 -115.2991538935817,51.6944449496829,0 -115.2938327815909,51.69072992661386,0 -115.2901115083392,51.6968243296739,0 -115.2850303194347,51.69983661478537,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
