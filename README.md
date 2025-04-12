@@ -11,7 +11,7 @@
 <br/>
 <p align="center">
   <img src="figures/graphical_abstract.jpeg" width="900">
-  <br><i>Graphical abstract</i>
+  <br>Graphical abstract: Cell2Fire simulation of real landscape in the US compared to FarSite
 </p>
 
 # Abstract
