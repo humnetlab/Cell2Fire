@@ -2,11 +2,11 @@
 [Minho Kim](https://minho.me), [Cristobal Pais](https://scholar.google.com/citations?user=-iFEF_YAAAAJ&hl), [Marta C. Gonzalez](https://scholar.google.com/citations?user=YAGjro8AAAAJ&hl=en)
 
 # Highlights⚡✨
-🔥 Cell2Fire accurately simulates in homogeneous and real landscapes in the US, Canada, and Chile.
-🇺🇸 Cell2Fire applied for the first time in the US (Southern California).
-⚙️ Blackbox optimization (BBO) used to better replicate real burns (2001 Dogrib Fire).
-📊 Comprehensive uncertainty analysis on weather data variables and global adjustment factors.
-📈 Sensitivity analysis including feature importance with SHAP values (using ML model trained to predict rate of spread)
+* 🔥 Cell2Fire accurately simulates in homogeneous and real landscapes in the US, Canada, and Chile.
+* 🇺🇸 Cell2Fire applied for the first time in the US (Southern California).
+* ⚙️ Blackbox optimization (BBO) used to better replicate real burns (2001 Dogrib Fire).
+* 📊 Comprehensive uncertainty analysis on weather data variables and global adjustment factors.
+* 📈 Sensitivity analysis including feature importance with SHAP values (using ML model trained to predict rate of spread)
   
 <br/>
 <p align="center">
