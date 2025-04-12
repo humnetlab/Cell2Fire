@@ -1,21 +1,23 @@
 # Fire Spread Simulations Using Cell2Fire on Synthetic and Real Landscapes
 [Minho Kim](https://minho.me), [Cristobal Pais](https://scholar.google.com/citations?user=-iFEF_YAAAAJ&hl), [Marta C. Gonzalez](https://scholar.google.com/citations?user=YAGjro8AAAAJ&hl=en)
 
-# Abstract
-Fire spread models (FSMs) are used to reproduce fire behavior and can simulate fire propagation over landscapes. As wildfires have emerged into a global phenomenon with far-reaching impacts on the natural and built environments, FSM simulations provide crucial information to better understand and predict fire behavior in various landscapes. In this study, we tested Cell2Fire, a recently developed cellular automata-based FSM, against benchmarking models used in the U.S., Canada, and Chile. We experimented on synthetically generated landscapes (homogeneous and heterogeneous mix of fuels), applying Cell2Fire for the first time on U.S. landscapes, and found a high level of agreement between Cell2Fire and existing FSMs. However, FSMs may not always produce realistic simulations. In response, we used two optimization methods to improve the simulation’s accuracy. First, we adopted a multi-objective optimization algorithm that scales the elliptical shape of the Cell2Fire’s output based on rate of spread (ROS) and eccentricity. Second, we optimized four adjustment factors related to the fire spread (head ROS, back ROS, flank ROS, and eccentricity) using blackbox optimization (i.e., derivative-free optimization), minimizing the discrepancy of the output with respect to real burn data. We assessed the effectiveness of the optimization on the 2001 Dogrib Fire in Alberta, Canada and found that the optimized Cell2Fire result more accurately predicted the real burn in comparison to Prometheus, the standard Canadian FSM. From these results, users can adjust Cell2Fire and simulate more realistic burns and surpass the capabilities of benchmark FSMs, integrating local or custom-made FSM data to expand the simulator’s application.
-
-<br/>
-<p align="center">
-  <img src="figures/graphical_abstract.jpeg" width="900">
-  <br><i>Graphical abstract</i>
-</p>
-
 # Highlights⚡
 * Cell2Fire accurately simulates in homogeneous and real landscapes in the US, Canada, and Chile.
 * Cell2Fire applied for the first time in the US (Southern California).
 * Blackbox optimization (BBO) used to better replicate real burns (2001 Dogrib Fire).
 * Comprehensive uncertainty analysis on weather data variables and global adjustment factors.
 * Sensitivity analysis including feature importance with SHAP values (using a surrogate ML model)
+  
+<br/>
+<p align="center">
+  <img src="figures/graphical_abstract.jpeg" width="900">
+  <br><i>Graphical abstract</i>
+</p>
+
+
+# Abstract
+Fire spread models (FSMs) are used to reproduce fire behavior and can simulate fire propagation over landscapes. As wildfires have emerged into a global phenomenon with far-reaching impacts on the natural and built environments, FSM simulations provide crucial information to better understand and predict fire behavior in various landscapes. In this study, we tested Cell2Fire, a recently developed cellular automata-based FSM, against benchmarking models used in the U.S., Canada, and Chile. We experimented on synthetically generated landscapes (homogeneous and heterogeneous mix of fuels), applying Cell2Fire for the first time on U.S. landscapes, and found a high level of agreement between Cell2Fire and existing FSMs. However, FSMs may not always produce realistic simulations. In response, we used two optimization methods to improve the simulation’s accuracy. First, we adopted a multi-objective optimization algorithm that scales the elliptical shape of the Cell2Fire’s output based on rate of spread (ROS) and eccentricity. Second, we optimized four adjustment factors related to the fire spread (head ROS, back ROS, flank ROS, and eccentricity) using blackbox optimization (i.e., derivative-free optimization), minimizing the discrepancy of the output with respect to real burn data. We assessed the effectiveness of the optimization on the 2001 Dogrib Fire in Alberta, Canada and found that the optimized Cell2Fire result more accurately predicted the real burn in comparison to Prometheus, the standard Canadian FSM. From these results, users can adjust Cell2Fire and simulate more realistic burns and surpass the capabilities of benchmark FSMs, integrating local or custom-made FSM data to expand the simulator’s application.
+
 
 # Contents
 1. [File directories](#Directories)
