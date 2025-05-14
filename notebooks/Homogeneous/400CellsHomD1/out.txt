@@ -1,0 +1,121 @@
+Creating a new, empty folder = C:/Users/Lenovo/Desktop/400CellsHomD1/Cell2Fire
+-----------------------------------------------------------------------------------
+Fire Period Length for ROS computations [min]:  1.0
+-----------------------------------------------------------------------------------
+  No elevation.asc file, filling with NaN
+  No saz.asc file, filling with NaN
+  No slope.asc file, filling with NaN
+
+----------------- Forest Data -----------------
+Rows: 20 Cols: 20 NCells: 400
+------------ End read forest data -------------
+We have specific ignition points
+Ignitions: {1: 205}
+Reading weather file
+creating C:/Users/Lenovo/Desktop/400CellsHomD1/Cell2Fire\Grids
+------------------------------------------------- Simulation Number  1 -------------------------------------------------
+Selected Week (Ignition) = 1
+
+ **** WARNING!!!! About to hit Max_Fire_Periods= 479  ***
+
+
+Next year...
+
+----------------------------- Results -----------------------------
+--------------------------- Solution without Heuristic --------------------------
+Total Available Cells:     312 - % of the Forest:  78.0 %
+Total Burnt Cells:         88 - % of the Forest:  22.0 %
+Total Non-Burnable Cells:  0 - % of the Forest:  0.0 %
+
+Cells status
+Cell 205 status: Burnt Year: 1 , Fire starts (fire period): 0
+Cell 186 status: Burnt Year: 1 , Fire starts (fire period): 35
+Cell 167 status: Burnt Year: 1 , Fire starts (fire period): 67
+Cell 148 status: Burnt Year: 1 , Fire starts (fire period): 91
+Cell 185 status: Burnt Year: 1 , Fire starts (fire period): 114
+Cell 206 status: Burnt Year: 1 , Fire starts (fire period): 114
+Cell 129 status: Burnt Year: 1 , Fire starts (fire period): 115
+Cell 187 status: Burnt Year: 1 , Fire starts (fire period): 134
+Cell 166 status: Burnt Year: 1 , Fire starts (fire period): 134
+Cell 110 status: Burnt Year: 1 , Fire starts (fire period): 135
+Cell 168 status: Burnt Year: 1 , Fire starts (fire period): 153
+Cell 147 status: Burnt Year: 1 , Fire starts (fire period): 153
+Cell 91 status: Burnt Year: 1 , Fire starts (fire period): 154
+Cell 128 status: Burnt Year: 1 , Fire starts (fire period): 172
+Cell 149 status: Burnt Year: 1 , Fire starts (fire period): 172
+Cell 72 status: Burnt Year: 1 , Fire starts (fire period): 173
+Cell 130 status: Burnt Year: 1 , Fire starts (fire period): 186
+Cell 109 status: Burnt Year: 1 , Fire starts (fire period): 186
+Cell 53 status: Burnt Year: 1 , Fire starts (fire period): 187
+Cell 90 status: Burnt Year: 1 , Fire starts (fire period): 196
+Cell 111 status: Burnt Year: 1 , Fire starts (fire period): 196
+Cell 34 status: Burnt Year: 1 , Fire starts (fire period): 197
+Cell 92 status: Burnt Year: 1 , Fire starts (fire period): 206
+Cell 71 status: Burnt Year: 1 , Fire starts (fire period): 206
+Cell 15 status: Burnt Year: 1 , Fire starts (fire period): 207
+Cell 165 status: Burnt Year: 1 , Fire starts (fire period): 213
+Cell 207 status: Burnt Year: 1 , Fire starts (fire period): 213
+Cell 73 status: Burnt Year: 1 , Fire starts (fire period): 216
+Cell 52 status: Burnt Year: 1 , Fire starts (fire period): 216
+Cell 146 status: Burnt Year: 1 , Fire starts (fire period): 223
+Cell 188 status: Burnt Year: 1 , Fire starts (fire period): 223
+Cell 33 status: Burnt Year: 1 , Fire starts (fire period): 226
+Cell 54 status: Burnt Year: 1 , Fire starts (fire period): 226
+Cell 169 status: Burnt Year: 1 , Fire starts (fire period): 233
+Cell 127 status: Burnt Year: 1 , Fire starts (fire period): 233
+Cell 35 status: Burnt Year: 1 , Fire starts (fire period): 236
+Cell 14 status: Burnt Year: 1 , Fire starts (fire period): 236
+Cell 108 status: Burnt Year: 1 , Fire starts (fire period): 243
+Cell 150 status: Burnt Year: 1 , Fire starts (fire period): 243
+Cell 16 status: Burnt Year: 1 , Fire starts (fire period): 245
+Cell 89 status: Burnt Year: 1 , Fire starts (fire period): 251
+Cell 131 status: Burnt Year: 1 , Fire starts (fire period): 251
+Cell 112 status: Burnt Year: 1 , Fire starts (fire period): 259
+Cell 70 status: Burnt Year: 1 , Fire starts (fire period): 259
+Cell 51 status: Burnt Year: 1 , Fire starts (fire period): 267
+Cell 93 status: Burnt Year: 1 , Fire starts (fire period): 267
+Cell 32 status: Burnt Year: 1 , Fire starts (fire period): 275
+Cell 74 status: Burnt Year: 1 , Fire starts (fire period): 275
+Cell 13 status: Burnt Year: 1 , Fire starts (fire period): 283
+Cell 55 status: Burnt Year: 1 , Fire starts (fire period): 283
+Cell 36 status: Burnt Year: 1 , Fire starts (fire period): 291
+Cell 17 status: Burnt Year: 1 , Fire starts (fire period): 299
+Cell 208 status: Burnt Year: 1 , Fire starts (fire period): 304
+Cell 145 status: Burnt Year: 1 , Fire starts (fire period): 304
+Cell 189 status: Burnt Year: 1 , Fire starts (fire period): 312
+Cell 126 status: Burnt Year: 1 , Fire starts (fire period): 312
+Cell 170 status: Burnt Year: 1 , Fire starts (fire period): 320
+Cell 107 status: Burnt Year: 1 , Fire starts (fire period): 320
+Cell 88 status: Burnt Year: 1 , Fire starts (fire period): 328
+Cell 151 status: Burnt Year: 1 , Fire starts (fire period): 328
+Cell 132 status: Burnt Year: 1 , Fire starts (fire period): 336
+Cell 69 status: Burnt Year: 1 , Fire starts (fire period): 336
+Cell 113 status: Burnt Year: 1 , Fire starts (fire period): 344
+Cell 50 status: Burnt Year: 1 , Fire starts (fire period): 344
+Cell 94 status: Burnt Year: 1 , Fire starts (fire period): 352
+Cell 31 status: Burnt Year: 1 , Fire starts (fire period): 352
+Cell 75 status: Burnt Year: 1 , Fire starts (fire period): 360
+Cell 12 status: Burnt Year: 1 , Fire starts (fire period): 360
+Cell 56 status: Burnt Year: 1 , Fire starts (fire period): 368
+Cell 37 status: Burnt Year: 1 , Fire starts (fire period): 376
+Cell 18 status: Burnt Year: 1 , Fire starts (fire period): 384
+Cell 209 status: Burnt Year: 1 , Fire starts (fire period): 405
+Cell 125 status: Burnt Year: 1 , Fire starts (fire period): 405
+Cell 106 status: Burnt Year: 1 , Fire starts (fire period): 413
+Cell 190 status: Burnt Year: 1 , Fire starts (fire period): 413
+Cell 171 status: Burnt Year: 1 , Fire starts (fire period): 423
+Cell 87 status: Burnt Year: 1 , Fire starts (fire period): 423
+Cell 152 status: Burnt Year: 1 , Fire starts (fire period): 433
+Cell 68 status: Burnt Year: 1 , Fire starts (fire period): 433
+Cell 49 status: Burnt Year: 1 , Fire starts (fire period): 442
+Cell 133 status: Burnt Year: 1 , Fire starts (fire period): 442
+Cell 114 status: Burnt Year: 1 , Fire starts (fire period): 452
+Cell 30 status: Burnt Year: 1 , Fire starts (fire period): 452
+Cell 184 status: Burnt Year: 1 , Fire starts (fire period): 454
+Cell 226 status: Burnt Year: 1 , Fire starts (fire period): 454
+Cell 11 status: Burnt Year: 1 , Fire starts (fire period): 462
+Cell 95 status: Burnt Year: 1 , Fire starts (fire period): 462
+Cell 76 status: Burnt Year: 1 , Fire starts (fire period): 471
+
+Final Time: 13.36 [s]
+Total simulation time: 13.36  [s]

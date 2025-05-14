@@ -1,6 +1,6 @@
 ------ Command line values ------
 InFolder: /Users/minho/Documents/GitHub/Cell2FireML/data/real/Sherpa_10H 
-OutFolder: /Users/minho/Documents/GitHub/Cell2FireML/data/real/03312025/sensitivity829 
+OutFolder: /Users/minho/Documents/GitHub/Cell2FireML/data/real/us_sensitivity/sensitivity829 
 WeatherOpt: rows 
 Ignitions: 1 
 FinalGrid: 1 

@@ -200,7 +200,7 @@ def GenerateDat(GFuelType, GFuelTypeN, Elevation, PS, SAZ, Curing, CBD, CBH, CCF
 # Main function 
 def GenDataFile(InFolder):
 
-    FBPlookup = os.path.join(InFolder, "kitral_lookup_table.csv")
+    FBPlookup = os.path.join(InFolder, "fbp_lookup_table.csv")
     # If the file exists, use it
     if os.path.exists(FBPlookup):
         FBPDict, ColorsDict = Dictionary(FBPlookup)

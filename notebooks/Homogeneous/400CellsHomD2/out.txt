@@ -1,0 +1,41 @@
+Creating a new, empty folder = C:/Users/Lenovo/Desktop/400CellsHomD2/Cell2Fire
+-----------------------------------------------------------------------------------
+Fire Period Length for ROS computations [min]:  1.0
+-----------------------------------------------------------------------------------
+  No elevation.asc file, filling with NaN
+  No saz.asc file, filling with NaN
+  No slope.asc file, filling with NaN
+
+----------------- Forest Data -----------------
+Rows: 20 Cols: 20 NCells: 400
+------------ End read forest data -------------
+We have specific ignition points
+Ignitions: {1: 205}
+Reading weather file
+creating C:/Users/Lenovo/Desktop/400CellsHomD2/Cell2Fire\Grids
+------------------------------------------------- Simulation Number  1 -------------------------------------------------
+Selected Week (Ignition) = 1
+
+ **** WARNING!!!! About to hit Max_Fire_Periods= 479  ***
+
+
+Next year...
+
+----------------------------- Results -----------------------------
+--------------------------- Solution without Heuristic --------------------------
+Total Available Cells:     392 - % of the Forest:  98.0 %
+Total Burnt Cells:         8 - % of the Forest:  2.0 %
+Total Non-Burnable Cells:  0 - % of the Forest:  0.0 %
+
+Cells status
+Cell 205 status: Burnt Year: 1 , Fire starts (fire period): 0
+Cell 186 status: Burnt Year: 1 , Fire starts (fire period): 134
+Cell 167 status: Burnt Year: 1 , Fire starts (fire period): 206
+Cell 148 status: Burnt Year: 1 , Fire starts (fire period): 252
+Cell 129 status: Burnt Year: 1 , Fire starts (fire period): 288
+Cell 110 status: Burnt Year: 1 , Fire starts (fire period): 325
+Cell 91 status: Burnt Year: 1 , Fire starts (fire period): 362
+Cell 72 status: Burnt Year: 1 , Fire starts (fire period): 401
+
+Final Time: 3.059 [s]
+Total simulation time: 3.059  [s]

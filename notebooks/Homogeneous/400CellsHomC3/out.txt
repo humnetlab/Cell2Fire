@@ -1,0 +1,17 @@
+Creating a new, empty folder = C:/Users/Lenovo/Desktop/400CellsHomC3/Cell2Fire
+-----------------------------------------------------------------------------------
+Fire Period Length for ROS computations [min]:  1.0
+-----------------------------------------------------------------------------------
+  No elevation.asc file, filling with NaN
+  No saz.asc file, filling with NaN
+  No slope.asc file, filling with NaN
+
+----------------- Forest Data -----------------
+Rows: 20 Cols: 20 NCells: 400
+------------ End read forest data -------------
+We have specific ignition points
+Ignitions: {1: 205}
+Reading weather file
+creating C:/Users/Lenovo/Desktop/400CellsHomC3/Cell2Fire\Grids
+------------------------------------------------- Simulation Number  1 -------------------------------------------------
+Selected Week (Ignition) = 1

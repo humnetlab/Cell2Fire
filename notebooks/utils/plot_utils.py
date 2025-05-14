@@ -114,7 +114,7 @@ def rasterize_cell2fire(polygon, size):
 
 
 
-def compare_single_grids_v2(base_path, grid1, grid2, size, instance, save=False):
+def compare_single_grids_v2(base_path, grid1, grid2, size, instance, farsite_width=1, save=False):
 
     """
     Compare fire spread OVER TIME between two grids and visualize the difference.
@@ -152,7 +152,7 @@ def compare_single_grids_v2(base_path, grid1, grid2, size, instance, save=False)
     for num, grid in enumerate(grid2):
         contours = farsite_contour(grid)
         for i, contour in enumerate(contours):
-            axes[0].plot(contour[:, 1], contour[:, 0], linewidth=1, color='k')
+            axes[0].plot(contour[:, 1], contour[:, 0], linewidth=farsite_width, color='k')
 
     # Set extents, scale bar, and colorbar
     scalebar = ScaleBar(1, 'm', length_fraction=0.2, width_fraction=0.02, frameon=False, location='lower right', label='Scale', font_properties={"size": 20})
