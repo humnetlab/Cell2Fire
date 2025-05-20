@@ -38,6 +38,13 @@ Fire spread models (FSMs) are used to reproduce fire behavior and can simulate f
 # Notebooks
 <a id="Notebooks"></a>
 
+### Cell2Fire + Uncertainty analysis
+- [Execute_Cell2Fire_US.ipynb](notebooks/Execute_Cell2Fire_US.ipynb): Script to run Cell2Fire on homogeneous and heterogeneous landscapes in the U.S.
+- [Execute_Cell2Fire_Canada.ipynb](notebooks/Execute_Cell2Fire_Canada.ipynb): Script to run Cell2Fire on real landscapes in Canada (Dogrib Fire)
+- [uncertainty_canada.ipynb](notebooks/uncertainty_canada.ipynb): Cell2Fire simulations of the 2001 Dogrib Fire + Uncertainty analysis of weather data
+- [uncertainty_us.ipynb](notebooks/uncertainty_us.ipynb): Cell2Fire simulations of real US landscape + Uncertainty analysis of adjustment factors (global)
+
+
 ### Elliptical optimization
 - [elliptical_optimization.ipynb](notebooks/elliptical_optimization.ipynb): Script to find initial optimal K-Factors used in elliptical optimization
 
@@ -46,10 +53,10 @@ Fire spread models (FSMs) are used to reproduce fire behavior and can simulate f
 - [plot_optimization.ipynb](notebooks/plot_optimization.ipynb): Visualization of elliptical optimization
 - [plot_real.ipynb](notebooks/plot_real.iypnb): Visualization of real fuel landscapes (US, Canada, Chile)
 
-### Cell2Fire + Uncertainty analysis
-- [uncertainty_canada.ipynb](notebooks/uncertainty_canada.ipynb): Cell2Fire simulations of the 2001 Dogrib Fire + Uncertainty analysis of weather data
-- [uncertainty_canada_finetuning.ipynb](notebooks/uncertainty_canada_finetuning.ipynb): Cell2Fire simulations of the 2001 Dogrib Fire + Uncertainty analysis of adjustment factors (global)
-- [uncertainty_us.ipynb](notebooks/uncertainty_us.ipynb): Cell2Fire simulations of real US landscape + Uncertainty analysis of adjustment factors (global)
+### ML model + SHAP
+- [generate_inputs.ipynb](notebooks/generate_inputs.ipynb): Generate input data to run FSMs for each region
+- [c2fml_us.ipynb](notebooks/c2fml_us.ipynb): XGBoost regression model trained on Behave (FSM for U.S.) and SHAP analysis
+- [c2fml_canada.ipynb](notebooks/c2fml_canada.ipynb): XGBoost regression model trained on FBP (FSM for Canada) and SHAP analysis
 
 # Data
 <a id="Data"></a>
