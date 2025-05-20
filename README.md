@@ -10,7 +10,7 @@
   
 <br/>
 <p align="center">
-  <img src="figures/fig5.jpg" width="900">
+  <img src="figures/fig5.jpeg" width="900">
   <br>Graphical abstract: Cell2Fire simulation of real landscape in the US compared to FarSite
 </p>
 
