@@ -148,4 +148,4 @@ The authors acknowledge the support of C3.ai through the grant Multiscale analys
 ---------------------
 **Please cite the journal paper if this code is useful and helpful for your research.**
 
-* Kim, M., Pais, C. & Gonzalez, M.C. Fire spread simulations using Cell2Fire on synthetic and real landscapes. Sci Rep 15, 25173 (2025). [https://doi.org/10.1038/s41598-025-05706-6](https://doi.org/10.1038/s41598-025-05706-6)
+Kim, M., Pais, C. & Gonzalez, M.C. Fire spread simulations using Cell2Fire on synthetic and real landscapes. Sci Rep 15, 25173 (2025). [https://doi.org/10.1038/s41598-025-05706-6](https://doi.org/10.1038/s41598-025-05706-6)
